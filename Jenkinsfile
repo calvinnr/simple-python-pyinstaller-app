@@ -11,7 +11,7 @@ node {
         // Define Docker image for the test stage
         docker.image('python:3.12.1-alpine3.19').inside {
             // Run test steps
-            sh 'python -m unittest testmodule.TestClass'
+            sh 'python -m unittest'
         }
 
         // Post-test actions
