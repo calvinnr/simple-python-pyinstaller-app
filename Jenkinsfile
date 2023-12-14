@@ -1,12 +1,21 @@
 node {
-    checkout scm
-    stage('Build') {
-	docker.image 'python:3-alpine'
-        sh '/usr/bin/python python -m py_compile sources/add2vals.py sources/calc.py'
+    stage('Checkout') {
+        // Checkout your Git repository
+        checkout scm
     }
-    stage('Test') {
-        docker.image 'qnib/pytest'
-        sh 'py.test --verbose --junit-xml test-reports/results.xml sources/test_calc.py'
-        junit 'test-reports/results.xml'
+
+    stage('Install Dependencies') {
+        // Use a virtual environment for isolation
+        sh 'python3 -m venv venv'
+        sh 'source venv/bin/activate'
+        sh 'pip install -r requirements.txt'
+    }
+
+    stage('Run Tests') {
+        sh 'python3 tests.py'
+    }
+
+    stage('Build') {
+        sh 'python3 build.py'
     }
 }
