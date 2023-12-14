@@ -1,5 +1,8 @@
 import unittest
 import calc
+import sys
+
+sys.path.append("/home/ubuntu/dicoding-intermediate/simple-python-pyinstaller-app/sources")
 
 class TestCalc(unittest.TestCase):
     """
