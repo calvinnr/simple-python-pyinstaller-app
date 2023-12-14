@@ -1,7 +1,7 @@
 node {
     stage('Build') {
         // Define Docker image for the build stage
-        docker.image('python:3.12.1-alpine3.19').inside {
+        docker.image('python:3.12').inside {
             // Run build steps
             sh 'python -m py_compile sources/add2vals.py sources/calc.py'
         }
@@ -9,7 +9,7 @@ node {
 
     stage('Test') {
         // Define Docker image for the test stage
-        docker.image('python:3.12.1-alpine3.19').inside {
+        docker.image('python:3.12').inside {
             // Run test steps
             sh 'python -m unittest sources/calc.py sources/test_calc.py'
         }
