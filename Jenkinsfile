@@ -11,7 +11,7 @@ node {
         // Define Docker image for the test stage
         docker.image('grihabor/pytest').inside {
             // Run test steps
-            sh 'py.test --junit-xml test-reports/results.xml sources/test_calc.py'
+            sh 'python -m unittest sources/test_calc.py'
         }
 
         // Post-test actions
