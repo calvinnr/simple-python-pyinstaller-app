@@ -1,28 +1,25 @@
 node {
     stage('Build') {
-        docker.image('python:3-alpine').inside {
+        // Define Docker image for the build stage
+        docker.image('python:3.12.1-alpine3.19').inside {
+            // Run build steps
             sh 'python -m py_compile sources/add2vals.py sources/calc.py'
+            stash(name: 'compiled-results', includes: 'sources/*.py*')
         }
     }
 
     stage('Test') {
+        // Define Docker image for the test stage
         docker.image('qnib/pytest').inside {
-            sh 'py.test --verbose --junit-xml test-reports/results.xml sources/test_calc.py'
+            // Run test steps
+            sh 'py.test --junit-xml test-reports/results.xml sources/test_calc.py'
         }
+
+        // Post-test actions
         post {
             always {
+                // Publish JUnit test results
                 junit 'test-reports/results.xml'
-            }
-        }
-    }
-
-    stage('Deliver') {
-        docker.image('cdrx/pyinstaller-linux:python2').inside {
-            sh 'pyinstaller --onefile sources/add2vals.py'
-        }
-        post {
-            success {
-                archiveArtifacts 'dist/add2vals'
             }
         }
     }
