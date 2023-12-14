@@ -12,9 +12,7 @@ node {
         // Define Docker image for the test stage
         docker.image('python:3.12.1-alpine3.19').inside {
             // Run test steps
-            sh 'apt install python3-pip'
-            sh 'pip-3.2 install pytest'
-            sh 'python3 -m pytest --junit-xml test-reports/results.xml sources/test_calc.py'
+            sh 'python -m pytest --junit-xml test-reports/results.xml sources/test_calc.py'
         }
 
         // Post-test actions
