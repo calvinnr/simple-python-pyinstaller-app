@@ -3,6 +3,7 @@ import calc
 import sys
 
 sys.path.append("/home/ubuntu/dicoding-intermediate/simple-python-pyinstaller-app/sources")
+from calc import add
 
 class TestCalc(unittest.TestCase):
     """
