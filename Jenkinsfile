@@ -2,7 +2,7 @@ node {
     checkout scm
     stage('Build') {
 	docker.image 'python:3-alpine'
-        sh '/usr/bin/python3 python -m py_compile sources/add2vals.py sources/calc.py'
+        sh '/usr/bin/python python -m py_compile sources/add2vals.py sources/calc.py'
     }
     stage('Test') {
         docker.image 'qnib/pytest'
