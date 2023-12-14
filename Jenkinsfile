@@ -11,7 +11,7 @@ node {
         // Define Docker image for the test stage
         docker.image('qnib/pytest').inside {
             // Run test steps
-            sh 'pytest --junit-xml test-reports/results.xml sources/test_calc.py'
+            sh 'py.test --junit-xml test-reports/results.xml sources/test_calc.py'
         }
 
         // Post-test actions
