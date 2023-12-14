@@ -6,7 +6,7 @@ node {
 
     stage('Install Dependencies') {
         // Use a virtual environment for isolation
-        docker.image 'python:3-alpine'
+        docker.image('python:3-alpine')
         sh 'python3 -m venv venv'
         sh 'source venv/bin/activate'
         sh 'pip install -r requirements.txt'
