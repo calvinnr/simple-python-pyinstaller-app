@@ -10,7 +10,7 @@ node {
 
     stage('Test') {
         // Define Docker image for the test stage
-        docker.image('qnib/pytest').inside {
+        docker.image('databricksdocs/pytest').inside {
             // Run test steps
             sh 'py.test --junit-xml test-reports/results.xml sources/test_calc.py'
         }
