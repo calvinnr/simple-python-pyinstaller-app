@@ -12,7 +12,7 @@ node {
         // Define Docker image for the test stage
         docker.image('qnib/pytest').inside {
             // Run test steps
-            sh 'virtualenv venv && . venv/bin/activate && pip install -r requirements.txt && python tests.py'
+            sh 'py.test --junit-xml test-reports/results.xml sources/test_calc.py'
         }
 
         // Post-test actions
