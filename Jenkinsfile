@@ -11,8 +11,7 @@ node {
         // Define Docker image for the test stage
         docker.image('python:3.12.1-alpine3.19').inside {
             // Run test steps
-            sh 'cd sources/'
-            sh 'python -m unittest test_calc.py'
+            sh 'cd sources && python -m unittest test_calc.py'
         }
 
         // Post-test actions
