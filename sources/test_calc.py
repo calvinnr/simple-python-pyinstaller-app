@@ -1,8 +1,7 @@
-import sys
-sys.path.append("/home/dicoding-intermediate/simple-python-pyinstaller-app/")
-
 import unittest
 import calc
+from calc import add2
+import sys
 
 class TestCalc(unittest.TestCase):
     """
