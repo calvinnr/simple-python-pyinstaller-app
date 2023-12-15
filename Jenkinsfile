@@ -11,7 +11,7 @@ node {
         // Define Docker image for the test stage
         docker.image('python:3.12.1-alpine3.19').inside {
             // Run test steps
-            sh 'cd sources'
+            sh 'cd /home/ubuntu/dicoding-intermediate/simple-python-pyinstaller-app/sources'
             sh 'python -m unittest test_calc.py'
         }
 
