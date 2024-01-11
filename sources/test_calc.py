@@ -1,6 +1,5 @@
 import unittest
 import calc
-from calc import add2
 import sys
 
 class TestCalc(unittest.TestCase):
