@@ -7,7 +7,7 @@ pipeline {
 	stage ('SSH') {
 	   steps {
 	       sshagent(['ec2']) {
-	           sh 'ssh -i /var/jenkins_home/dicoding.pem -tt -o StrictHostKeyChecking=no ubuntu@54.88.141.208'
+	           sh 'ssh -tt -o StrictHostKeyChecking=no ubuntu@54.88.141.208'
 		}
 	   }
 	}
