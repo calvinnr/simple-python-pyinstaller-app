@@ -4,6 +4,7 @@ pipeline {
         skipStagesAfterUnstable()
     }
     stages {
+	agent any
 	stage ('SSH') {
 	   steps {
 	       sshagent(['ec2']) {
