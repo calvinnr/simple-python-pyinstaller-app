@@ -1,0 +1,1430 @@
+Jan 21 00:00:05 calvinserver systemd[1]: logrotate.service: Succeeded.
+Jan 21 00:00:05 calvinserver systemd[1]: Finished Rotate log files.
+Jan 21 00:00:08 calvinserver systemd[1]: man-db.service: Succeeded.
+Jan 21 00:00:08 calvinserver systemd[1]: Finished Daily man-db regeneration.
+Jan 21 00:00:12 calvinserver systemd[1]: ua-timer.service: Succeeded.
+Jan 21 00:00:12 calvinserver systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+Jan 21 00:17:01 calvinserver CRON[64332]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 21 00:35:01 calvinserver CRON[65437]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+Jan 21 00:43:11 calvinserver systemd[1]: fwupd.service: Succeeded.
+Jan 21 00:50:17 calvinserver systemd[1]: session-22.scope: Succeeded.
+Jan 21 00:53:14 calvinserver systemd[1]: Started Session 25 of user calvin.
+Jan 21 01:00:43 calvinserver systemd[1]: run-docker-runtime\x2drunc-moby-1a6a3e59581024ae6767af4525f96d1c2d3ebaa80babf6b1473db7552584af50-runc.dYXufi.mount: Succeeded.
+Jan 21 01:03:09 calvinserver systemd[4154]: run-docker-runtime\x2drunc-moby-1a6a3e59581024ae6767af4525f96d1c2d3ebaa80babf6b1473db7552584af50-runc.ICVrs7.mount: Succeeded.
+Jan 21 01:03:09 calvinserver systemd[1]: run-docker-runtime\x2drunc-moby-1a6a3e59581024ae6767af4525f96d1c2d3ebaa80babf6b1473db7552584af50-runc.ICVrs7.mount: Succeeded.
+Jan 21 01:06:03 calvinserver systemd[1]: run-docker-runtime\x2drunc-moby-1a6a3e59581024ae6767af4525f96d1c2d3ebaa80babf6b1473db7552584af50-runc.SzFSQr.mount: Succeeded.
+Jan 21 01:11:48 calvinserver systemd[1]: Starting Refresh fwupd metadata and update motd...
+Jan 21 01:11:49 calvinserver dbus-daemon[709]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.212' (uid=111 pid=68728 comm="/usr/bin/fwupdmgr refresh " label="unconfined")
+Jan 21 01:11:49 calvinserver systemd[1]: Starting Firmware update daemon...
+Jan 21 01:11:51 calvinserver fwupd[68741]: 01:11:51:0334 FuEngine             failed to get releases for UEFI dbx: No releases found: Not compatible with org.freedesktop.fwupd version 1.7.9, requires >= 1.9.1
+Jan 21 01:11:51 calvinserver fwupd[68741]: 01:11:51:0379 FuEngine             failed to get releases for UEFI dbx: No releases found: Not compatible with org.freedesktop.fwupd version 1.7.9, requires >= 1.9.1
+Jan 21 01:11:54 calvinserver dbus-daemon[709]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Jan 21 01:11:54 calvinserver systemd[1]: Started Firmware update daemon.
+Jan 21 01:11:54 calvinserver fwupdmgr[68728]: Updating lvfs
+Jan 21 01:11:54 calvinserver fwupdmgr[68728]: Downloading…: 0%
+Jan 21 01:11:55 calvinserver fwupdmgr[68728]: Downloading…: 100%
+Jan 21 01:11:55 calvinserver fwupdmgr[68728]: message repeated 2 times: [ Downloading…: 100%]
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 0%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 1%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 2%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 3%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 4%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 5%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 6%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 7%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 8%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 9%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 11%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 12%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 14%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 19%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 24%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 25%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 28%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 30%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 32%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 33%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 44%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 49%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 50%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Downloading…: 57%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Idle…: 100%
+Jan 21 01:11:56 calvinserver fwupdmgr[68728]: Idle…: 100%
+Jan 21 01:12:01 calvinserver fwupd[68741]: 01:12:01:0563 FuEngine             failed to get releases for UEFI dbx: No releases found: Not compatible with org.freedesktop.fwupd version 1.7.9, requires >= 1.9.1
+Jan 21 01:12:02 calvinserver fwupd[68741]: 01:12:02:0445 FuEngine             failed to get releases for UEFI dbx: No releases found: Not compatible with org.freedesktop.fwupd version 1.7.9, requires >= 1.9.1
+Jan 21 01:12:02 calvinserver fwupdmgr[68728]: Successfully downloaded new metadata: 0 local devices supported
+Jan 21 01:12:02 calvinserver systemd[1]: fwupd-refresh.service: Succeeded.
+Jan 21 01:12:02 calvinserver systemd[1]: Finished Refresh fwupd metadata and update motd.
+Jan 21 01:14:59 calvinserver kernel: [51644.359483] docker0: port 1(veth5921d04) entered blocking state
+Jan 21 01:14:59 calvinserver kernel: [51644.359909] docker0: port 1(veth5921d04) entered disabled state
+Jan 21 01:14:59 calvinserver kernel: [51644.361649] device veth5921d04 entered promiscuous mode
+Jan 21 01:15:01 calvinserver kernel: [51646.265182] eth0: renamed from vethb422497
+Jan 21 01:15:01 calvinserver kernel: [51646.281832] docker0: port 1(veth5921d04) entered blocking state
+Jan 21 01:15:01 calvinserver kernel: [51646.281832] docker0: port 1(veth5921d04) entered forwarding state
+Jan 21 01:15:08 calvinserver kernel: [51653.491287] docker0: port 1(veth5921d04) entered disabled state
+Jan 21 01:15:08 calvinserver kernel: [51653.492343] vethb422497: renamed from eth0
+Jan 21 01:15:08 calvinserver kernel: [51653.533620] docker0: port 1(veth5921d04) entered disabled state
+Jan 21 01:15:08 calvinserver kernel: [51653.542891] device veth5921d04 left promiscuous mode
+Jan 21 01:15:08 calvinserver kernel: [51653.542932] docker0: port 1(veth5921d04) entered disabled state
+Jan 21 01:15:15 calvinserver kernel: [51660.159189] docker0: port 1(veth03e70bd) entered blocking state
+Jan 21 01:15:15 calvinserver kernel: [51660.159215] docker0: port 1(veth03e70bd) entered disabled state
+Jan 21 01:15:15 calvinserver kernel: [51660.159514] device veth03e70bd entered promiscuous mode
+Jan 21 01:15:16 calvinserver kernel: [51661.759281] eth0: renamed from veth9c0ef98
+Jan 21 01:15:16 calvinserver kernel: [51661.775227] docker0: port 1(veth03e70bd) entered blocking state
+Jan 21 01:15:16 calvinserver kernel: [51661.775252] docker0: port 1(veth03e70bd) entered forwarding state
+Jan 21 01:15:27 calvinserver kernel: [51672.202579] docker0: port 1(veth03e70bd) entered disabled state
+Jan 21 01:15:27 calvinserver kernel: [51672.202936] veth9c0ef98: renamed from eth0
+Jan 21 01:15:27 calvinserver kernel: [51672.257992] docker0: port 1(veth03e70bd) entered disabled state
+Jan 21 01:15:27 calvinserver kernel: [51672.266843] device veth03e70bd left promiscuous mode
+Jan 21 01:15:27 calvinserver kernel: [51672.266880] docker0: port 1(veth03e70bd) entered disabled state
+Jan 21 01:16:16 calvinserver kernel: [51721.039052] docker0: port 1(veth08192d3) entered blocking state
+Jan 21 01:16:16 calvinserver kernel: [51721.039082] docker0: port 1(veth08192d3) entered disabled state
+Jan 21 01:16:16 calvinserver kernel: [51721.039423] device veth08192d3 entered promiscuous mode
+Jan 21 01:16:17 calvinserver kernel: [51722.475685] eth0: renamed from veth30a09fd
+Jan 21 01:16:17 calvinserver kernel: [51722.492485] docker0: port 1(veth08192d3) entered blocking state
+Jan 21 01:16:17 calvinserver kernel: [51722.492554] docker0: port 1(veth08192d3) entered forwarding state
+Jan 21 01:17:01 calvinserver CRON[70436]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 21 01:17:02 calvinserver kernel: [51766.994295] docker0: port 1(veth08192d3) entered disabled state
+Jan 21 01:17:02 calvinserver kernel: [51766.994582] veth30a09fd: renamed from eth0
+Jan 21 01:17:02 calvinserver kernel: [51767.038191] docker0: port 1(veth08192d3) entered disabled state
+Jan 21 01:17:02 calvinserver kernel: [51767.048310] device veth08192d3 left promiscuous mode
+Jan 21 01:17:02 calvinserver kernel: [51767.048346] docker0: port 1(veth08192d3) entered disabled state
+Jan 21 01:18:06 calvinserver kernel: [51831.255797] docker0: port 1(vethe92a2fb) entered blocking state
+Jan 21 01:18:06 calvinserver kernel: [51831.255828] docker0: port 1(vethe92a2fb) entered disabled state
+Jan 21 01:18:06 calvinserver kernel: [51831.256176] device vethe92a2fb entered promiscuous mode
+Jan 21 01:18:08 calvinserver kernel: [51833.267391] eth0: renamed from veth5b3b78f
+Jan 21 01:18:08 calvinserver kernel: [51833.296286] docker0: port 1(vethe92a2fb) entered blocking state
+Jan 21 01:18:08 calvinserver kernel: [51833.296317] docker0: port 1(vethe92a2fb) entered forwarding state
+Jan 21 01:18:11 calvinserver kernel: [51836.637282] docker0: port 1(vethe92a2fb) entered disabled state
+Jan 21 01:18:11 calvinserver kernel: [51836.637615] veth5b3b78f: renamed from eth0
+Jan 21 01:18:11 calvinserver kernel: [51836.731340] docker0: port 1(vethe92a2fb) entered disabled state
+Jan 21 01:18:11 calvinserver kernel: [51836.753895] device vethe92a2fb left promiscuous mode
+Jan 21 01:18:11 calvinserver kernel: [51836.753939] docker0: port 1(vethe92a2fb) entered disabled state
+Jan 21 01:35:57 calvinserver kernel: [52902.309681] docker0: port 1(veth0a9a54e) entered blocking state
+Jan 21 01:35:57 calvinserver kernel: [52902.309962] docker0: port 1(veth0a9a54e) entered disabled state
+Jan 21 01:35:57 calvinserver kernel: [52902.311990] device veth0a9a54e entered promiscuous mode
+Jan 21 01:35:59 calvinserver kernel: [52904.421715] eth0: renamed from veth382501a
+Jan 21 01:35:59 calvinserver kernel: [52904.455687] docker0: port 1(veth0a9a54e) entered blocking state
+Jan 21 01:35:59 calvinserver kernel: [52904.455772] docker0: port 1(veth0a9a54e) entered forwarding state
+Jan 21 01:36:02 calvinserver kernel: [52907.616509] docker0: port 1(veth0a9a54e) entered disabled state
+Jan 21 01:36:02 calvinserver kernel: [52907.617196] veth382501a: renamed from eth0
+Jan 21 01:36:02 calvinserver kernel: [52907.677481] docker0: port 1(veth0a9a54e) entered disabled state
+Jan 21 01:36:02 calvinserver kernel: [52907.687596] device veth0a9a54e left promiscuous mode
+Jan 21 01:36:02 calvinserver kernel: [52907.687645] docker0: port 1(veth0a9a54e) entered disabled state
+Jan 21 02:17:02 calvinserver CRON[74031]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 21 02:41:29 calvinserver kernel: [56834.811606] docker0: port 1(veth14a1e43) entered blocking state
+Jan 21 02:41:29 calvinserver kernel: [56834.811848] docker0: port 1(veth14a1e43) entered disabled state
+Jan 21 02:41:29 calvinserver kernel: [56834.813381] device veth14a1e43 entered promiscuous mode
+Jan 21 02:41:31 calvinserver kernel: [56836.575618] eth0: renamed from veth77ec5a0
+Jan 21 02:41:31 calvinserver kernel: [56836.607037] docker0: port 1(veth14a1e43) entered blocking state
+Jan 21 02:41:31 calvinserver kernel: [56836.607060] docker0: port 1(veth14a1e43) entered forwarding state
+Jan 21 02:41:38 calvinserver kernel: [56843.362462] docker0: port 1(veth14a1e43) entered disabled state
+Jan 21 02:41:38 calvinserver kernel: [56843.363520] veth77ec5a0: renamed from eth0
+Jan 21 02:41:38 calvinserver kernel: [56843.447467] docker0: port 1(veth14a1e43) entered disabled state
+Jan 21 02:41:38 calvinserver kernel: [56843.473098] device veth14a1e43 left promiscuous mode
+Jan 21 02:41:38 calvinserver kernel: [56843.473167] docker0: port 1(veth14a1e43) entered disabled state
+Jan 21 02:41:45 calvinserver kernel: [56850.584969] docker0: port 1(veth3a943ef) entered blocking state
+Jan 21 02:41:45 calvinserver kernel: [56850.584991] docker0: port 1(veth3a943ef) entered disabled state
+Jan 21 02:41:45 calvinserver kernel: [56850.585302] device veth3a943ef entered promiscuous mode
+Jan 21 02:41:46 calvinserver kernel: [56851.711769] eth0: renamed from veth81457c7
+Jan 21 02:41:46 calvinserver kernel: [56851.728356] docker0: port 1(veth3a943ef) entered blocking state
+Jan 21 02:41:46 calvinserver kernel: [56851.728379] docker0: port 1(veth3a943ef) entered forwarding state
+Jan 21 02:41:56 calvinserver kernel: [56861.332251] docker0: port 1(veth3a943ef) entered disabled state
+Jan 21 02:41:56 calvinserver kernel: [56861.332598] veth81457c7: renamed from eth0
+Jan 21 02:41:56 calvinserver kernel: [56861.368922] docker0: port 1(veth3a943ef) entered disabled state
+Jan 21 02:41:56 calvinserver kernel: [56861.382757] device veth3a943ef left promiscuous mode
+Jan 21 02:41:56 calvinserver kernel: [56861.382794] docker0: port 1(veth3a943ef) entered disabled state
+Jan 21 02:58:52 calvinserver kernel: [57877.029263] docker0: port 1(veth604dd01) entered blocking state
+Jan 21 02:58:52 calvinserver kernel: [57877.029263] docker0: port 1(veth604dd01) entered disabled state
+Jan 21 02:58:52 calvinserver kernel: [57877.029263] device veth604dd01 entered promiscuous mode
+Jan 21 02:58:53 calvinserver kernel: [57878.303332] eth0: renamed from vetha1e1749
+Jan 21 02:58:53 calvinserver kernel: [57878.315847] docker0: port 1(veth604dd01) entered blocking state
+Jan 21 02:58:53 calvinserver kernel: [57878.315867] docker0: port 1(veth604dd01) entered forwarding state
+Jan 21 02:59:36 calvinserver kernel: [57921.810543] docker0: port 1(veth604dd01) entered disabled state
+Jan 21 02:59:36 calvinserver kernel: [57921.810956] vetha1e1749: renamed from eth0
+Jan 21 02:59:36 calvinserver kernel: [57921.846809] docker0: port 1(veth604dd01) entered disabled state
+Jan 21 02:59:36 calvinserver kernel: [57921.854722] device veth604dd01 left promiscuous mode
+Jan 21 02:59:36 calvinserver kernel: [57921.854748] docker0: port 1(veth604dd01) entered disabled state
+Jan 21 03:00:38 calvinserver kernel: [57983.916383] docker0: port 1(veth437652c) entered blocking state
+Jan 21 03:00:38 calvinserver kernel: [57983.916409] docker0: port 1(veth437652c) entered disabled state
+Jan 21 03:00:38 calvinserver kernel: [57983.916808] device veth437652c entered promiscuous mode
+Jan 21 03:00:40 calvinserver kernel: [57985.181295] eth0: renamed from veth9a090e1
+Jan 21 03:00:40 calvinserver kernel: [57985.196006] docker0: port 1(veth437652c) entered blocking state
+Jan 21 03:00:40 calvinserver kernel: [57985.196030] docker0: port 1(veth437652c) entered forwarding state
+Jan 21 03:00:42 calvinserver kernel: [57987.337539] docker0: port 1(veth437652c) entered disabled state
+Jan 21 03:00:42 calvinserver kernel: [57987.337824] veth9a090e1: renamed from eth0
+Jan 21 03:00:42 calvinserver kernel: [57987.377497] docker0: port 1(veth437652c) entered disabled state
+Jan 21 03:00:42 calvinserver kernel: [57987.384700] device veth437652c left promiscuous mode
+Jan 21 03:00:42 calvinserver kernel: [57987.384728] docker0: port 1(veth437652c) entered disabled state
+Jan 21 03:01:25 calvinserver dockerd[853]: time="2024-01-21T03:01:25.883323920Z" level=error msg="stream copy error: reading from a closed fifo"
+Jan 21 03:01:25 calvinserver dockerd[853]: time="2024-01-21T03:01:25.970978151Z" level=error msg="Error running exec 2b5fec45ae5899bee07b07ef5516e495ed7553c5b63578b59b38eec2a9f780be in container: OCI runtime exec failed: exec failed: unable to start container process: exec: \"bash\": executable file not found in $PATH: unknown"
+Jan 21 03:01:26 calvinserver dockerd[853]: time="2024-01-21T03:01:26.013562506Z" level=error msg="failed to close container stdin" container=699ac0c1c6c97dc544b517bd8d4f3cc2f5da7b1b3a17cfffe6d6dfa347c3086b error="process does not exist 2b5fec45ae5899bee07b07ef5516e495ed7553c5b63578b59b38eec2a9f780be: not found" module=libcontainerd namespace=moby
+Jan 21 03:02:01 calvinserver systemd[4154]: run-docker-runtime\x2drunc-moby-1a6a3e59581024ae6767af4525f96d1c2d3ebaa80babf6b1473db7552584af50-runc.2UlIaY.mount: Succeeded.
+Jan 21 03:02:01 calvinserver systemd[1]: run-docker-runtime\x2drunc-moby-1a6a3e59581024ae6767af4525f96d1c2d3ebaa80babf6b1473db7552584af50-runc.2UlIaY.mount: Succeeded.
+Jan 21 03:03:51 calvinserver systemd[1]: Started Session 28 of user calvin.
+Jan 21 03:10:01 calvinserver CRON[78508]: (root) CMD (test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r)
+Jan 21 03:10:41 calvinserver systemd[1]: Starting Online ext4 Metadata Check for All Filesystems...
+Jan 21 03:10:41 calvinserver systemd[1]: e2scrub_all.service: Succeeded.
+Jan 21 03:10:41 calvinserver systemd[1]: Finished Online ext4 Metadata Check for All Filesystems.
+Jan 21 03:12:03 calvinserver systemd[1]: fwupd.service: Succeeded.
+Jan 21 03:17:01 calvinserver CRON[79752]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 21 03:23:13 calvinserver systemd[1]: Starting Update APT News...
+Jan 21 03:23:13 calvinserver systemd[1]: Starting Update the local ESM caches...
+Jan 21 03:23:16 calvinserver systemd[1]: apt-news.service: Succeeded.
+Jan 21 03:23:16 calvinserver systemd[1]: Finished Update APT News.
+Jan 21 03:23:23 calvinserver systemd[1]: esm-cache.service: Succeeded.
+Jan 21 03:23:23 calvinserver systemd[1]: Finished Update the local ESM caches.
+Jan 21 03:23:25 calvinserver dbus-daemon[709]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.215' (uid=0 pid=80520 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Jan 21 03:23:25 calvinserver systemd[1]: Starting PackageKit Daemon...
+Jan 21 03:23:26 calvinserver PackageKit: daemon start
+Jan 21 03:23:27 calvinserver dbus-daemon[709]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jan 21 03:23:27 calvinserver systemd[1]: Started PackageKit Daemon.
+Jan 21 03:25:09 calvinserver kernel: [59454.924847] docker0: port 1(vethf08b765) entered blocking state
+Jan 21 03:25:09 calvinserver kernel: [59454.925106] docker0: port 1(vethf08b765) entered disabled state
+Jan 21 03:25:09 calvinserver kernel: [59454.931305] device vethf08b765 entered promiscuous mode
+Jan 21 03:25:12 calvinserver kernel: [59457.757426] eth0: renamed from veth555bf29
+Jan 21 03:25:12 calvinserver kernel: [59457.785270] docker0: port 1(vethf08b765) entered blocking state
+Jan 21 03:25:12 calvinserver kernel: [59457.785339] docker0: port 1(vethf08b765) entered forwarding state
+Jan 21 03:25:21 calvinserver kernel: [59466.283957] docker0: port 1(vethf08b765) entered disabled state
+Jan 21 03:25:21 calvinserver kernel: [59466.284923] veth555bf29: renamed from eth0
+Jan 21 03:25:21 calvinserver kernel: [59466.340182] docker0: port 1(vethf08b765) entered disabled state
+Jan 21 03:25:21 calvinserver kernel: [59466.356268] device vethf08b765 left promiscuous mode
+Jan 21 03:25:21 calvinserver kernel: [59466.356340] docker0: port 1(vethf08b765) entered disabled state
+Jan 21 03:25:29 calvinserver kernel: [59474.425532] docker0: port 1(vethf2bbafd) entered blocking state
+Jan 21 03:25:29 calvinserver kernel: [59474.425566] docker0: port 1(vethf2bbafd) entered disabled state
+Jan 21 03:25:29 calvinserver kernel: [59474.426677] device vethf2bbafd entered promiscuous mode
+Jan 21 03:25:30 calvinserver kernel: [59475.851976] eth0: renamed from veth8b034e2
+Jan 21 03:25:30 calvinserver kernel: [59475.884300] docker0: port 1(vethf2bbafd) entered blocking state
+Jan 21 03:25:30 calvinserver kernel: [59475.884325] docker0: port 1(vethf2bbafd) entered forwarding state
+Jan 21 03:25:42 calvinserver kernel: [59487.160920] docker0: port 1(vethf2bbafd) entered disabled state
+Jan 21 03:25:42 calvinserver kernel: [59487.162415] veth8b034e2: renamed from eth0
+Jan 21 03:25:42 calvinserver kernel: [59487.220915] docker0: port 1(vethf2bbafd) entered disabled state
+Jan 21 03:25:42 calvinserver kernel: [59487.231378] device vethf2bbafd left promiscuous mode
+Jan 21 03:25:42 calvinserver kernel: [59487.231437] docker0: port 1(vethf2bbafd) entered disabled state
+Jan 21 03:26:28 calvinserver snapd[3811]: api_snaps.go:424: Installing snap "ngrok" revision unset
+Jan 21 03:27:04 calvinserver systemd[1]: Reloading.
+Jan 21 03:27:09 calvinserver systemd[1]: Starting Daily apt download activities...
+Jan 21 03:27:09 calvinserver systemd[1]: Starting Message of the Day...
+Jan 21 03:27:09 calvinserver systemd[1]: Mounting Mount unit for core18, revision 2812...
+Jan 21 03:27:10 calvinserver systemd[1]: Mounted Mount unit for core18, revision 2812.
+Jan 21 03:27:21 calvinserver systemd[1]: Starting Update APT News...
+Jan 21 03:27:21 calvinserver systemd[1]: Starting Update the local ESM caches...
+Jan 21 03:27:25 calvinserver 50-motd-news[81623]:  * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+Jan 21 03:27:25 calvinserver 50-motd-news[81623]:    just raised the bar for easy, resilient and secure K8s cluster deployment.
+Jan 21 03:27:25 calvinserver 50-motd-news[81623]:    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+Jan 21 03:27:25 calvinserver systemd[1]: motd-news.service: Succeeded.
+Jan 21 03:27:25 calvinserver systemd[1]: Finished Message of the Day.
+Jan 21 03:27:26 calvinserver systemd[1]: apt-news.service: Succeeded.
+Jan 21 03:27:26 calvinserver systemd[1]: Finished Update APT News.
+Jan 21 03:27:31 calvinserver systemd[1]: esm-cache.service: Succeeded.
+Jan 21 03:27:31 calvinserver systemd[1]: Finished Update the local ESM caches.
+Jan 21 03:27:36 calvinserver systemd[1]: Reloading.
+Jan 21 03:27:42 calvinserver systemd[1]: Mounting Mount unit for ngrok, revision 118...
+Jan 21 03:27:43 calvinserver systemd[1]: Mounted Mount unit for ngrok, revision 118.
+Jan 21 03:27:45 calvinserver kernel: [59610.584140] audit: type=1400 audit(1705807665.601:63): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.ngrok" pid=82249 comm="apparmor_parser"
+Jan 21 03:27:47 calvinserver kernel: [59612.395104] audit: type=1400 audit(1705807667.421:64): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.ngrok.ngrok" pid=82250 comm="apparmor_parser"
+Jan 21 03:27:51 calvinserver kernel: [59616.346407] audit: type=1400 audit(1705807671.369:65): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/20671/usr/lib/snapd/snap-confine" pid=82276 comm="apparmor_parser"
+Jan 21 03:27:51 calvinserver kernel: [59616.368180] audit: type=1400 audit(1705807671.393:66): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/20671/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=82276 comm="apparmor_parser"
+Jan 21 03:27:53 calvinserver kernel: [59618.893867] audit: type=1400 audit(1705807673.917:67): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.ngrok.ngrok" pid=82278 comm="apparmor_parser"
+Jan 21 03:27:54 calvinserver kernel: [59619.053681] audit: type=1400 audit(1705807674.081:68): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.ngrok" pid=82285 comm="apparmor_parser"
+Jan 21 03:28:32 calvinserver systemd[1]: apt-daily.service: Succeeded.
+Jan 21 03:28:32 calvinserver systemd[1]: Finished Daily apt download activities.
+Jan 21 03:30:01 calvinserver CRON[82422]: (root) CMD (test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron)
+Jan 21 03:30:28 calvinserver systemd[4154]: Started D-Bus User Message Bus.
+Jan 21 03:30:28 calvinserver dbus-daemon[82480]: [session uid=1000 pid=82480] AppArmor D-Bus mediation is enabled
+Jan 21 03:30:28 calvinserver systemd[4154]: Started snap.ngrok.ngrok-42a900c3-6f0e-4ef2-8f80-1a77cdf9cd37.scope.
+Jan 21 03:30:29 calvinserver systemd[1]: tmp-snap.rootfs_8bRhbE.mount: Succeeded.
+Jan 21 03:30:29 calvinserver systemd[4154]: tmp-snap.rootfs_8bRhbE.mount: Succeeded.
+Jan 21 03:30:33 calvinserver systemd[4154]: snap.ngrok.ngrok-42a900c3-6f0e-4ef2-8f80-1a77cdf9cd37.scope: Succeeded.
+Jan 21 03:30:36 calvinserver systemd[4154]: Started snap.ngrok.ngrok-dcda9193-757b-4cb0-8592-762381915651.scope.
+Jan 21 03:30:36 calvinserver systemd[4154]: snap.ngrok.ngrok-dcda9193-757b-4cb0-8592-762381915651.scope: Succeeded.
+Jan 21 03:31:35 calvinserver systemd[4154]: Started snap.ngrok.ngrok-aa5eb2b4-c700-463d-b0ef-6cc250de32d1.scope.
+Jan 21 03:31:36 calvinserver systemd[4154]: snap.ngrok.ngrok-aa5eb2b4-c700-463d-b0ef-6cc250de32d1.scope: Succeeded.
+Jan 21 03:31:38 calvinserver systemd[4154]: Started snap.ngrok.ngrok-33c4d771-d2d8-4f2e-9971-5954e40e208a.scope.
+Jan 21 03:32:21 calvinserver systemd[1]: session-25.scope: Succeeded.
+Jan 21 03:32:21 calvinserver systemd[4154]: snap.ngrok.ngrok-33c4d771-d2d8-4f2e-9971-5954e40e208a.scope: Succeeded.
+Jan 21 03:32:35 calvinserver systemd[1]: Started Session 32 of user calvin.
+Jan 21 03:32:38 calvinserver PackageKit: daemon quit
+Jan 21 03:32:38 calvinserver systemd[1]: packagekit.service: Succeeded.
+Jan 21 03:32:42 calvinserver systemd[4154]: Started snap.ngrok.ngrok-28841dff-4cf4-4d12-966a-82212843f518.scope.
+Jan 21 03:32:42 calvinserver systemd[4154]: snap.ngrok.ngrok-28841dff-4cf4-4d12-966a-82212843f518.scope: Succeeded.
+Jan 21 03:32:56 calvinserver systemd[4154]: Started snap.ngrok.ngrok-dd1f2dac-597e-4116-b3c6-cc568f582343.scope.
+Jan 21 03:34:04 calvinserver systemd[1]: session-32.scope: Succeeded.
+Jan 21 03:34:04 calvinserver systemd[4154]: snap.ngrok.ngrok-dd1f2dac-597e-4116-b3c6-cc568f582343.scope: Succeeded.
+Jan 21 03:45:38 calvinserver systemd[1]: Started Session 33 of user calvin.
+Jan 21 03:45:47 calvinserver systemd[4154]: Started snap.ngrok.ngrok-f9792572-b838-4f9e-81bf-4c611d8ca862.scope.
+Jan 21 03:47:12 calvinserver systemd[1]: Started Session 34 of user calvin.
+Jan 21 04:02:00 calvinserver systemd[1]: Started Session 35 of user calvin.
+Jan 21 04:02:51 calvinserver snapd[3811]: storehelpers.go:791: cannot refresh: snap has no updates available: "core18", "lxd", "ngrok", "snapd"
+Jan 21 04:03:18 calvinserver systemd[1]: Reloading.
+Jan 21 04:03:22 calvinserver systemd[1]: Mounting Mount unit for core20, revision 2105...
+Jan 21 04:03:22 calvinserver systemd[1]: Mounted Mount unit for core20, revision 2105.
+Jan 21 04:03:26 calvinserver snapd[3811]: storehelpers.go:791: cannot refresh snap "core20": snap has no updates available
+Jan 21 04:09:06 calvinserver kernel: [61796.562258] docker0: port 1(veth2da37ee) entered blocking state
+Jan 21 04:09:06 calvinserver kernel: [61796.562340] docker0: port 1(veth2da37ee) entered disabled state
+Jan 21 04:09:06 calvinserver kernel: [61796.578818] device veth2da37ee entered promiscuous mode
+Jan 21 04:09:09 calvinserver kernel: [61799.263347] eth0: renamed from veth022a1ba
+Jan 21 04:09:09 calvinserver kernel: [61799.299648] docker0: port 1(veth2da37ee) entered blocking state
+Jan 21 04:09:09 calvinserver kernel: [61799.299724] docker0: port 1(veth2da37ee) entered forwarding state
+Jan 21 04:10:05 calvinserver kernel: [61855.011947] docker0: port 1(veth2da37ee) entered disabled state
+Jan 21 04:10:05 calvinserver kernel: [61855.014678] veth022a1ba: renamed from eth0
+Jan 21 04:10:05 calvinserver kernel: [61855.086290] docker0: port 1(veth2da37ee) entered disabled state
+Jan 21 04:10:05 calvinserver kernel: [61855.100864] device veth2da37ee left promiscuous mode
+Jan 21 04:10:05 calvinserver kernel: [61855.101052] docker0: port 1(veth2da37ee) entered disabled state
+Jan 21 04:11:09 calvinserver kernel: [61919.185338] docker0: port 1(veth9cd8dc7) entered blocking state
+Jan 21 04:11:09 calvinserver kernel: [61919.185415] docker0: port 1(veth9cd8dc7) entered disabled state
+Jan 21 04:11:09 calvinserver kernel: [61919.186457] device veth9cd8dc7 entered promiscuous mode
+Jan 21 04:11:11 calvinserver kernel: [61920.789074] eth0: renamed from vethf17f7ca
+Jan 21 04:11:11 calvinserver kernel: [61920.804340] docker0: port 1(veth9cd8dc7) entered blocking state
+Jan 21 04:11:11 calvinserver kernel: [61920.804420] docker0: port 1(veth9cd8dc7) entered forwarding state
+Jan 21 04:11:13 calvinserver kernel: [61922.750695] docker0: port 1(veth9cd8dc7) entered disabled state
+Jan 21 04:11:13 calvinserver kernel: [61922.750941] vethf17f7ca: renamed from eth0
+Jan 21 04:11:13 calvinserver kernel: [61922.838944] docker0: port 1(veth9cd8dc7) entered disabled state
+Jan 21 04:11:13 calvinserver kernel: [61922.847345] device veth9cd8dc7 left promiscuous mode
+Jan 21 04:11:13 calvinserver kernel: [61922.847386] docker0: port 1(veth9cd8dc7) entered disabled state
+Jan 21 04:14:18 calvinserver systemd[1]: var-lib-docker-overlay2-992e1816a1b205e53e96a446922d079a4ed7767626dc1103e68920d00eb64161-merged.mount: Succeeded.
+Jan 21 04:14:18 calvinserver systemd[4154]: var-lib-docker-overlay2-992e1816a1b205e53e96a446922d079a4ed7767626dc1103e68920d00eb64161-merged.mount: Succeeded.
+Jan 21 04:14:19 calvinserver kernel: [62108.699857] docker0: port 1(vethb9f97d1) entered blocking state
+Jan 21 04:14:19 calvinserver kernel: [62108.699887] docker0: port 1(vethb9f97d1) entered disabled state
+Jan 21 04:14:19 calvinserver kernel: [62108.700656] device vethb9f97d1 entered promiscuous mode
+Jan 21 04:14:19 calvinserver systemd-udevd[85958]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:14:19 calvinserver systemd-udevd[85959]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:14:19 calvinserver systemd-udevd[85959]: Using default interface naming scheme 'v245'.
+Jan 21 04:14:19 calvinserver systemd-udevd[85958]: Using default interface naming scheme 'v245'.
+Jan 21 04:14:19 calvinserver systemd-udevd[85959]: vethb9f97d1: Could not generate persistent MAC: No data available
+Jan 21 04:14:19 calvinserver systemd-udevd[85958]: veth77055fc: Could not generate persistent MAC: No data available
+Jan 21 04:14:19 calvinserver systemd-networkd[689]: vethb9f97d1: Link UP
+Jan 21 04:14:19 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 21 seen, reloading interface list
+Jan 21 04:14:20 calvinserver containerd[738]: time="2024-01-21T04:14:20.666070745Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 04:14:20 calvinserver containerd[738]: time="2024-01-21T04:14:20.678579589Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 04:14:20 calvinserver containerd[738]: time="2024-01-21T04:14:20.678829620Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 04:14:20 calvinserver containerd[738]: time="2024-01-21T04:14:20.694168711Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd pid=85994 runtime=io.containerd.runc.v2
+Jan 21 04:14:22 calvinserver kernel: [62112.279904] eth0: renamed from veth77055fc
+Jan 21 04:14:22 calvinserver kernel: [62112.320845] IPv6: ADDRCONF(NETDEV_CHANGE): vethb9f97d1: link becomes ready
+Jan 21 04:14:22 calvinserver kernel: [62112.321978] docker0: port 1(vethb9f97d1) entered blocking state
+Jan 21 04:14:22 calvinserver kernel: [62112.321998] docker0: port 1(vethb9f97d1) entered forwarding state
+Jan 21 04:14:22 calvinserver systemd-networkd[689]: vethb9f97d1: Gained carrier
+Jan 21 04:14:22 calvinserver systemd-networkd[689]: docker0: Gained carrier
+Jan 21 04:14:24 calvinserver systemd-networkd[689]: vethb9f97d1: Gained IPv6LL
+Jan 21 04:17:01 calvinserver CRON[86185]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 21 04:17:52 calvinserver systemd[1]: var-lib-docker-overlay2-6fdc6aad873ad975a449cc7c6f3512df7a61e5bc6db28f1b169b859f25793875\x2dinit-merged.mount: Succeeded.
+Jan 21 04:17:52 calvinserver systemd[4154]: var-lib-docker-overlay2-6fdc6aad873ad975a449cc7c6f3512df7a61e5bc6db28f1b169b859f25793875\x2dinit-merged.mount: Succeeded.
+Jan 21 04:17:53 calvinserver systemd[1]: var-lib-docker-overlay2-6fdc6aad873ad975a449cc7c6f3512df7a61e5bc6db28f1b169b859f25793875-merged.mount: Succeeded.
+Jan 21 04:17:53 calvinserver systemd[4154]: var-lib-docker-overlay2-6fdc6aad873ad975a449cc7c6f3512df7a61e5bc6db28f1b169b859f25793875-merged.mount: Succeeded.
+Jan 21 04:17:53 calvinserver kernel: [62322.968091] docker0: port 2(veth1967f5b) entered blocking state
+Jan 21 04:17:53 calvinserver kernel: [62322.968122] docker0: port 2(veth1967f5b) entered disabled state
+Jan 21 04:17:53 calvinserver kernel: [62322.969267] device veth1967f5b entered promiscuous mode
+Jan 21 04:17:53 calvinserver systemd-udevd[86225]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:17:53 calvinserver systemd-udevd[86225]: Using default interface naming scheme 'v245'.
+Jan 21 04:17:53 calvinserver systemd-udevd[86225]: vetheee151a: Could not generate persistent MAC: No data available
+Jan 21 04:17:53 calvinserver systemd-networkd[689]: veth1967f5b: Link UP
+Jan 21 04:17:53 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 23 seen, reloading interface list
+Jan 21 04:17:53 calvinserver systemd-udevd[86227]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:17:53 calvinserver systemd-udevd[86227]: Using default interface naming scheme 'v245'.
+Jan 21 04:17:53 calvinserver systemd-udevd[86227]: veth1967f5b: Could not generate persistent MAC: No data available
+Jan 21 04:17:54 calvinserver containerd[738]: time="2024-01-21T04:17:54.222048375Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 04:17:54 calvinserver containerd[738]: time="2024-01-21T04:17:54.226009939Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 04:17:54 calvinserver containerd[738]: time="2024-01-21T04:17:54.227759585Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 04:17:54 calvinserver containerd[738]: time="2024-01-21T04:17:54.232109680Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/9e866f960cec0c4ca9a61b6cf8c91993e14b89a917874715cef6948a27341ee7 pid=86265 runtime=io.containerd.runc.v2
+Jan 21 04:17:56 calvinserver kernel: [62325.708235] eth0: renamed from vetheee151a
+Jan 21 04:17:56 calvinserver kernel: [62325.736944] IPv6: ADDRCONF(NETDEV_CHANGE): veth1967f5b: link becomes ready
+Jan 21 04:17:56 calvinserver kernel: [62325.737187] docker0: port 2(veth1967f5b) entered blocking state
+Jan 21 04:17:56 calvinserver kernel: [62325.737398] docker0: port 2(veth1967f5b) entered forwarding state
+Jan 21 04:17:56 calvinserver systemd-networkd[689]: veth1967f5b: Gained carrier
+Jan 21 04:17:57 calvinserver systemd-networkd[689]: veth1967f5b: Gained IPv6LL
+Jan 21 04:18:27 calvinserver dockerd[853]: time="2024-01-21T04:18:27.820346663Z" level=error msg="stream copy error: reading from a closed fifo"
+Jan 21 04:18:27 calvinserver dockerd[853]: time="2024-01-21T04:18:27.864798775Z" level=error msg="Error running exec 71c9c6c513718add9015636f361dde5d4d44277218cdf08fb3eb8100348ccc34 in container: OCI runtime exec failed: exec failed: unable to start container process: exec: \"bash\": executable file not found in $PATH: unknown"
+Jan 21 04:18:27 calvinserver dockerd[853]: time="2024-01-21T04:18:27.907158208Z" level=error msg="failed to close container stdin" container=957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd error="process does not exist 71c9c6c513718add9015636f361dde5d4d44277218cdf08fb3eb8100348ccc34: not found" module=libcontainerd namespace=moby
+Jan 21 04:20:06 calvinserver containerd[738]: time="2024-01-21T04:20:06.149339076Z" level=info msg="shim disconnected" id=957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd
+Jan 21 04:20:06 calvinserver containerd[738]: time="2024-01-21T04:20:06.156555321Z" level=warning msg="cleaning up after shim disconnected" id=957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd namespace=moby
+Jan 21 04:20:06 calvinserver containerd[738]: time="2024-01-21T04:20:06.157057279Z" level=info msg="cleaning up dead shim"
+Jan 21 04:20:06 calvinserver dockerd[853]: time="2024-01-21T04:20:06.146419505Z" level=info msg="ignoring event" container=957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 04:20:06 calvinserver containerd[738]: time="2024-01-21T04:20:06.701725119Z" level=warning msg="cleanup warnings time=\"2024-01-21T04:20:06Z\" level=info msg=\"starting signal loop\" namespace=moby pid=86512 runtime=io.containerd.runc.v2\n"
+Jan 21 04:20:07 calvinserver kernel: [62456.709091] docker0: port 1(vethb9f97d1) entered disabled state
+Jan 21 04:20:07 calvinserver kernel: [62456.734860] veth77055fc: renamed from eth0
+Jan 21 04:20:07 calvinserver systemd-networkd[689]: vethb9f97d1: Lost carrier
+Jan 21 04:20:07 calvinserver systemd-udevd[86524]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:20:07 calvinserver systemd-udevd[86524]: Using default interface naming scheme 'v245'.
+Jan 21 04:20:07 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 21 seen, reloading interface list
+Jan 21 04:20:07 calvinserver kernel: [62456.935736] docker0: port 1(vethb9f97d1) entered disabled state
+Jan 21 04:20:07 calvinserver systemd-networkd[689]: vethb9f97d1: Link DOWN
+Jan 21 04:20:07 calvinserver kernel: [62457.012556] device vethb9f97d1 left promiscuous mode
+Jan 21 04:20:07 calvinserver kernel: [62457.012645] docker0: port 1(vethb9f97d1) entered disabled state
+Jan 21 04:20:07 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '22' we don't know about, ignoring.
+Jan 21 04:20:07 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '22' we don't know about, ignoring.
+Jan 21 04:20:07 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 21 seen even after reload
+Jan 21 04:20:07 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 21 seen, reloading interface list
+Jan 21 04:20:07 calvinserver systemd-udevd[86524]: veth77055fc: Failed to get link config: No such device
+Jan 21 04:20:07 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 21 seen even after reload
+Jan 21 04:20:07 calvinserver systemd[1]: run-docker-netns-ba7129ff09ca.mount: Succeeded.
+Jan 21 04:20:07 calvinserver systemd[4154]: run-docker-netns-ba7129ff09ca.mount: Succeeded.
+Jan 21 04:20:07 calvinserver kernel: [62457.520015] docker0: port 1(veth33fad42) entered blocking state
+Jan 21 04:20:07 calvinserver kernel: [62457.520078] docker0: port 1(veth33fad42) entered disabled state
+Jan 21 04:20:07 calvinserver kernel: [62457.521122] device veth33fad42 entered promiscuous mode
+Jan 21 04:20:07 calvinserver systemd-udevd[86527]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:20:07 calvinserver kernel: [62457.534487] docker0: port 1(veth33fad42) entered blocking state
+Jan 21 04:20:07 calvinserver kernel: [62457.534521] docker0: port 1(veth33fad42) entered forwarding state
+Jan 21 04:20:07 calvinserver systemd-udevd[86527]: Using default interface naming scheme 'v245'.
+Jan 21 04:20:07 calvinserver systemd-udevd[86527]: veth33fad42: Could not generate persistent MAC: No data available
+Jan 21 04:20:07 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 25 seen, reloading interface list
+Jan 21 04:20:07 calvinserver systemd-networkd[689]: veth33fad42: Link UP
+Jan 21 04:20:07 calvinserver systemd-udevd[86524]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:20:07 calvinserver systemd-udevd[86524]: veth424f184: Could not generate persistent MAC: No data available
+Jan 21 04:20:08 calvinserver kernel: [62457.733430] docker0: port 1(veth33fad42) entered disabled state
+Jan 21 04:20:08 calvinserver containerd[738]: time="2024-01-21T04:20:08.491546059Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 04:20:08 calvinserver containerd[738]: time="2024-01-21T04:20:08.500213156Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 04:20:08 calvinserver containerd[738]: time="2024-01-21T04:20:08.500443046Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 04:20:08 calvinserver containerd[738]: time="2024-01-21T04:20:08.508016280Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd pid=86587 runtime=io.containerd.runc.v2
+Jan 21 04:20:09 calvinserver kernel: [62459.493234] eth0: renamed from veth424f184
+Jan 21 04:20:09 calvinserver kernel: [62459.516569] IPv6: ADDRCONF(NETDEV_CHANGE): veth33fad42: link becomes ready
+Jan 21 04:20:09 calvinserver kernel: [62459.518129] docker0: port 1(veth33fad42) entered blocking state
+Jan 21 04:20:09 calvinserver kernel: [62459.518141] docker0: port 1(veth33fad42) entered forwarding state
+Jan 21 04:20:09 calvinserver systemd-networkd[689]: veth33fad42: Gained carrier
+Jan 21 04:20:10 calvinserver systemd-networkd[689]: veth33fad42: Gained IPv6LL
+Jan 21 04:20:11 calvinserver containerd[738]: time="2024-01-21T04:20:11.095929362Z" level=info msg="shim disconnected" id=957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd
+Jan 21 04:20:11 calvinserver containerd[738]: time="2024-01-21T04:20:11.096354225Z" level=warning msg="cleaning up after shim disconnected" id=957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd namespace=moby
+Jan 21 04:20:11 calvinserver containerd[738]: time="2024-01-21T04:20:11.096437187Z" level=info msg="cleaning up dead shim"
+Jan 21 04:20:11 calvinserver dockerd[853]: time="2024-01-21T04:20:11.106880002Z" level=info msg="ignoring event" container=957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 04:20:11 calvinserver containerd[738]: time="2024-01-21T04:20:11.218056811Z" level=warning msg="cleanup warnings time=\"2024-01-21T04:20:11Z\" level=info msg=\"starting signal loop\" namespace=moby pid=86641 runtime=io.containerd.runc.v2\n"
+Jan 21 04:20:11 calvinserver systemd-networkd[689]: veth33fad42: Lost carrier
+Jan 21 04:20:11 calvinserver kernel: [62461.066370] docker0: port 1(veth33fad42) entered disabled state
+Jan 21 04:20:11 calvinserver kernel: [62461.077980] veth424f184: renamed from eth0
+Jan 21 04:20:11 calvinserver systemd-udevd[86524]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:20:11 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 25 seen, reloading interface list
+Jan 21 04:20:11 calvinserver systemd-networkd[689]: veth33fad42: Link DOWN
+Jan 21 04:20:11 calvinserver kernel: [62461.205617] docker0: port 1(veth33fad42) entered disabled state
+Jan 21 04:20:11 calvinserver kernel: [62461.263174] device veth33fad42 left promiscuous mode
+Jan 21 04:20:11 calvinserver kernel: [62461.263214] docker0: port 1(veth33fad42) entered disabled state
+Jan 21 04:20:11 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '26' we don't know about, ignoring.
+Jan 21 04:20:11 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '26' we don't know about, ignoring.
+Jan 21 04:20:11 calvinserver systemd-networkd[689]: veth424f184: Failed to wait for the interface to be initialized: No such device
+Jan 21 04:20:11 calvinserver systemd-udevd[86524]: veth424f184: Failed to get link config: No such device
+Jan 21 04:20:11 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 25 seen even after reload
+Jan 21 04:20:11 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 25 seen, reloading interface list
+Jan 21 04:20:11 calvinserver systemd[1]: run-docker-netns-eece32f96ec6.mount: Succeeded.
+Jan 21 04:20:11 calvinserver systemd[4154]: run-docker-netns-eece32f96ec6.mount: Succeeded.
+Jan 21 04:20:11 calvinserver systemd[1]: var-lib-docker-overlay2-992e1816a1b205e53e96a446922d079a4ed7767626dc1103e68920d00eb64161-merged.mount: Succeeded.
+Jan 21 04:20:11 calvinserver systemd[4154]: var-lib-docker-overlay2-992e1816a1b205e53e96a446922d079a4ed7767626dc1103e68920d00eb64161-merged.mount: Succeeded.
+Jan 21 04:20:11 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 25 seen even after reload
+Jan 21 04:20:35 calvinserver kernel: [62484.839624] docker0: port 1(veth6736180) entered blocking state
+Jan 21 04:20:35 calvinserver kernel: [62484.839652] docker0: port 1(veth6736180) entered disabled state
+Jan 21 04:20:35 calvinserver kernel: [62484.840140] device veth6736180 entered promiscuous mode
+Jan 21 04:20:35 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 27 seen, reloading interface list
+Jan 21 04:20:35 calvinserver systemd-udevd[86693]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:20:35 calvinserver systemd-udevd[86693]: Using default interface naming scheme 'v245'.
+Jan 21 04:20:35 calvinserver systemd-udevd[86693]: veth6736180: Could not generate persistent MAC: No data available
+Jan 21 04:20:35 calvinserver systemd-networkd[689]: veth6736180: Link UP
+Jan 21 04:20:35 calvinserver systemd-udevd[86692]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:20:35 calvinserver systemd-udevd[86692]: Using default interface naming scheme 'v245'.
+Jan 21 04:20:35 calvinserver systemd-udevd[86692]: vethc6951dd: Could not generate persistent MAC: No data available
+Jan 21 04:20:35 calvinserver containerd[738]: time="2024-01-21T04:20:35.822664093Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 04:20:35 calvinserver containerd[738]: time="2024-01-21T04:20:35.824057967Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 04:20:35 calvinserver containerd[738]: time="2024-01-21T04:20:35.830003300Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 04:20:35 calvinserver containerd[738]: time="2024-01-21T04:20:35.834674873Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd pid=86729 runtime=io.containerd.runc.v2
+Jan 21 04:20:36 calvinserver kernel: [62486.603026] eth0: renamed from vethc6951dd
+Jan 21 04:20:36 calvinserver systemd-networkd[689]: veth6736180: Gained carrier
+Jan 21 04:20:36 calvinserver kernel: [62486.624467] IPv6: ADDRCONF(NETDEV_CHANGE): veth6736180: link becomes ready
+Jan 21 04:20:36 calvinserver kernel: [62486.624704] docker0: port 1(veth6736180) entered blocking state
+Jan 21 04:20:36 calvinserver kernel: [62486.624716] docker0: port 1(veth6736180) entered forwarding state
+Jan 21 04:20:37 calvinserver dockerd[853]: time="2024-01-21T04:20:37.683254863Z" level=info msg="ignoring event" container=957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 04:20:37 calvinserver containerd[738]: time="2024-01-21T04:20:37.699436100Z" level=info msg="shim disconnected" id=957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd
+Jan 21 04:20:37 calvinserver containerd[738]: time="2024-01-21T04:20:37.700071025Z" level=warning msg="cleaning up after shim disconnected" id=957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd namespace=moby
+Jan 21 04:20:37 calvinserver containerd[738]: time="2024-01-21T04:20:37.700159853Z" level=info msg="cleaning up dead shim"
+Jan 21 04:20:37 calvinserver containerd[738]: time="2024-01-21T04:20:37.854381610Z" level=warning msg="cleanup warnings time=\"2024-01-21T04:20:37Z\" level=info msg=\"starting signal loop\" namespace=moby pid=86793 runtime=io.containerd.runc.v2\n"
+Jan 21 04:20:37 calvinserver kernel: [62487.677846] docker0: port 1(veth6736180) entered disabled state
+Jan 21 04:20:37 calvinserver kernel: [62487.678650] vethc6951dd: renamed from eth0
+Jan 21 04:20:38 calvinserver systemd-networkd[689]: veth6736180: Lost carrier
+Jan 21 04:20:38 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 27 seen, reloading interface list
+Jan 21 04:20:38 calvinserver systemd-udevd[86758]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:20:38 calvinserver systemd-udevd[86758]: Using default interface naming scheme 'v245'.
+Jan 21 04:20:38 calvinserver systemd-networkd[689]: veth6736180: Link DOWN
+Jan 21 04:20:38 calvinserver kernel: [62487.846183] docker0: port 1(veth6736180) entered disabled state
+Jan 21 04:20:38 calvinserver kernel: [62487.898683] device veth6736180 left promiscuous mode
+Jan 21 04:20:38 calvinserver kernel: [62487.898731] docker0: port 1(veth6736180) entered disabled state
+Jan 21 04:20:38 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '28' we don't know about, ignoring.
+Jan 21 04:20:38 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '28' we don't know about, ignoring.
+Jan 21 04:20:38 calvinserver systemd-udevd[86758]: vethc6951dd: Failed to get link config: No such device
+Jan 21 04:20:38 calvinserver systemd[1]: run-docker-netns-a024cddaaba1.mount: Succeeded.
+Jan 21 04:20:38 calvinserver systemd[4154]: run-docker-netns-a024cddaaba1.mount: Succeeded.
+Jan 21 04:20:38 calvinserver systemd[4154]: var-lib-docker-overlay2-992e1816a1b205e53e96a446922d079a4ed7767626dc1103e68920d00eb64161-merged.mount: Succeeded.
+Jan 21 04:20:38 calvinserver systemd[1]: var-lib-docker-overlay2-992e1816a1b205e53e96a446922d079a4ed7767626dc1103e68920d00eb64161-merged.mount: Succeeded.
+Jan 21 04:21:16 calvinserver systemd-udevd[86894]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:21:16 calvinserver systemd-udevd[86894]: Using default interface naming scheme 'v245'.
+Jan 21 04:21:16 calvinserver kernel: [62526.232907] docker0: port 1(veth6e6cfac) entered blocking state
+Jan 21 04:21:16 calvinserver kernel: [62526.232932] docker0: port 1(veth6e6cfac) entered disabled state
+Jan 21 04:21:16 calvinserver kernel: [62526.254585] device veth6e6cfac entered promiscuous mode
+Jan 21 04:21:16 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 29 seen, reloading interface list
+Jan 21 04:21:16 calvinserver systemd-udevd[86894]: veth6e6cfac: Could not generate persistent MAC: No data available
+Jan 21 04:21:16 calvinserver systemd-udevd[86893]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:21:16 calvinserver systemd-udevd[86893]: Using default interface naming scheme 'v245'.
+Jan 21 04:21:16 calvinserver systemd-udevd[86893]: vethc03d9ac: Could not generate persistent MAC: No data available
+Jan 21 04:21:16 calvinserver systemd-networkd[689]: veth6e6cfac: Link UP
+Jan 21 04:21:17 calvinserver containerd[738]: time="2024-01-21T04:21:17.167754180Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 04:21:17 calvinserver containerd[738]: time="2024-01-21T04:21:17.174787585Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 04:21:17 calvinserver containerd[738]: time="2024-01-21T04:21:17.175078374Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 04:21:17 calvinserver containerd[738]: time="2024-01-21T04:21:17.179668985Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd pid=86930 runtime=io.containerd.runc.v2
+Jan 21 04:21:17 calvinserver systemd[4154]: run-docker-runtime\x2drunc-moby-957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd-runc.46JQUP.mount: Succeeded.
+Jan 21 04:21:18 calvinserver kernel: [62528.150635] eth0: renamed from vethc03d9ac
+Jan 21 04:21:18 calvinserver kernel: [62528.181304] IPv6: ADDRCONF(NETDEV_CHANGE): veth6e6cfac: link becomes ready
+Jan 21 04:21:18 calvinserver kernel: [62528.181586] docker0: port 1(veth6e6cfac) entered blocking state
+Jan 21 04:21:18 calvinserver kernel: [62528.181598] docker0: port 1(veth6e6cfac) entered forwarding state
+Jan 21 04:21:18 calvinserver systemd-networkd[689]: veth6e6cfac: Gained carrier
+Jan 21 04:21:19 calvinserver dockerd[853]: time="2024-01-21T04:21:19.209927062Z" level=info msg="ignoring event" container=957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 04:21:19 calvinserver containerd[738]: time="2024-01-21T04:21:19.215672451Z" level=info msg="shim disconnected" id=957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd
+Jan 21 04:21:19 calvinserver containerd[738]: time="2024-01-21T04:21:19.218657159Z" level=warning msg="cleaning up after shim disconnected" id=957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd namespace=moby
+Jan 21 04:21:19 calvinserver containerd[738]: time="2024-01-21T04:21:19.219313041Z" level=info msg="cleaning up dead shim"
+Jan 21 04:21:19 calvinserver containerd[738]: time="2024-01-21T04:21:19.320766586Z" level=warning msg="cleanup warnings time=\"2024-01-21T04:21:19Z\" level=info msg=\"starting signal loop\" namespace=moby pid=86998 runtime=io.containerd.runc.v2\n"
+Jan 21 04:21:19 calvinserver systemd-networkd[689]: veth6e6cfac: Lost carrier
+Jan 21 04:21:19 calvinserver kernel: [62529.195585] docker0: port 1(veth6e6cfac) entered disabled state
+Jan 21 04:21:19 calvinserver kernel: [62529.196022] vethc03d9ac: renamed from eth0
+Jan 21 04:21:19 calvinserver systemd-udevd[86963]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:21:19 calvinserver systemd-udevd[86963]: Using default interface naming scheme 'v245'.
+Jan 21 04:21:19 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 29 seen, reloading interface list
+Jan 21 04:21:19 calvinserver kernel: [62529.320335] docker0: port 1(veth6e6cfac) entered disabled state
+Jan 21 04:21:19 calvinserver systemd-networkd[689]: veth6e6cfac: Link DOWN
+Jan 21 04:21:19 calvinserver kernel: [62529.359237] device veth6e6cfac left promiscuous mode
+Jan 21 04:21:19 calvinserver kernel: [62529.359275] docker0: port 1(veth6e6cfac) entered disabled state
+Jan 21 04:21:19 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '30' we don't know about, ignoring.
+Jan 21 04:21:19 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '30' we don't know about, ignoring.
+Jan 21 04:21:19 calvinserver systemd-udevd[86963]: vethc03d9ac: Failed to get link config: No such device
+Jan 21 04:21:19 calvinserver systemd[4154]: run-docker-netns-4d02217336b7.mount: Succeeded.
+Jan 21 04:21:19 calvinserver systemd[1]: run-docker-netns-4d02217336b7.mount: Succeeded.
+Jan 21 04:21:19 calvinserver systemd[4154]: var-lib-docker-overlay2-992e1816a1b205e53e96a446922d079a4ed7767626dc1103e68920d00eb64161-merged.mount: Succeeded.
+Jan 21 04:21:19 calvinserver systemd[1]: var-lib-docker-overlay2-992e1816a1b205e53e96a446922d079a4ed7767626dc1103e68920d00eb64161-merged.mount: Succeeded.
+Jan 21 04:22:08 calvinserver dockerd[853]: time="2024-01-21T04:22:08.091528612Z" level=error msg="Error setting up exec command in container prometheus: Container 957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd is not running"
+Jan 21 04:22:12 calvinserver kernel: [62582.281516] docker0: port 1(vethedf7cec) entered blocking state
+Jan 21 04:22:12 calvinserver kernel: [62582.281516] docker0: port 1(vethedf7cec) entered disabled state
+Jan 21 04:22:12 calvinserver kernel: [62582.293327] device vethedf7cec entered promiscuous mode
+Jan 21 04:22:12 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 31 seen, reloading interface list
+Jan 21 04:22:12 calvinserver systemd-networkd[689]: vethedf7cec: Link UP
+Jan 21 04:22:12 calvinserver systemd-udevd[87073]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:22:12 calvinserver systemd-udevd[87073]: Using default interface naming scheme 'v245'.
+Jan 21 04:22:12 calvinserver systemd-udevd[87073]: vethedf7cec: Could not generate persistent MAC: No data available
+Jan 21 04:22:12 calvinserver systemd-udevd[87071]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:22:12 calvinserver systemd-udevd[87071]: Using default interface naming scheme 'v245'.
+Jan 21 04:22:12 calvinserver systemd-udevd[87071]: vethb2e3067: Could not generate persistent MAC: No data available
+Jan 21 04:22:13 calvinserver containerd[738]: time="2024-01-21T04:22:13.236376951Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 04:22:13 calvinserver containerd[738]: time="2024-01-21T04:22:13.237206868Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 04:22:13 calvinserver containerd[738]: time="2024-01-21T04:22:13.241050575Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 04:22:13 calvinserver containerd[738]: time="2024-01-21T04:22:13.246147118Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd pid=87108 runtime=io.containerd.runc.v2
+Jan 21 04:22:13 calvinserver systemd[4154]: run-docker-runtime\x2drunc-moby-957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd-runc.W54Wxf.mount: Succeeded.
+Jan 21 04:22:13 calvinserver systemd[1]: run-docker-runtime\x2drunc-moby-957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd-runc.W54Wxf.mount: Succeeded.
+Jan 21 04:22:14 calvinserver kernel: [62584.107489] eth0: renamed from vethb2e3067
+Jan 21 04:22:14 calvinserver systemd-networkd[689]: vethedf7cec: Gained carrier
+Jan 21 04:22:14 calvinserver kernel: [62584.148051] IPv6: ADDRCONF(NETDEV_CHANGE): vethedf7cec: link becomes ready
+Jan 21 04:22:14 calvinserver kernel: [62584.148292] docker0: port 1(vethedf7cec) entered blocking state
+Jan 21 04:22:14 calvinserver kernel: [62584.148304] docker0: port 1(vethedf7cec) entered forwarding state
+Jan 21 04:22:15 calvinserver dockerd[853]: time="2024-01-21T04:22:15.093120834Z" level=info msg="ignoring event" container=957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 04:22:15 calvinserver containerd[738]: time="2024-01-21T04:22:15.095663380Z" level=info msg="shim disconnected" id=957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd
+Jan 21 04:22:15 calvinserver containerd[738]: time="2024-01-21T04:22:15.097040243Z" level=warning msg="cleaning up after shim disconnected" id=957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd namespace=moby
+Jan 21 04:22:15 calvinserver containerd[738]: time="2024-01-21T04:22:15.099719107Z" level=info msg="cleaning up dead shim"
+Jan 21 04:22:15 calvinserver containerd[738]: time="2024-01-21T04:22:15.301239477Z" level=warning msg="cleanup warnings time=\"2024-01-21T04:22:15Z\" level=info msg=\"starting signal loop\" namespace=moby pid=87173 runtime=io.containerd.runc.v2\n"
+Jan 21 04:22:15 calvinserver systemd-networkd[689]: vethedf7cec: Lost carrier
+Jan 21 04:22:15 calvinserver kernel: [62585.109948] docker0: port 1(vethedf7cec) entered disabled state
+Jan 21 04:22:15 calvinserver kernel: [62585.116907] vethb2e3067: renamed from eth0
+Jan 21 04:22:15 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 31 seen, reloading interface list
+Jan 21 04:22:15 calvinserver systemd-udevd[87071]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:22:15 calvinserver kernel: [62585.286724] docker0: port 1(vethedf7cec) entered disabled state
+Jan 21 04:22:15 calvinserver kernel: [62585.319039] device vethedf7cec left promiscuous mode
+Jan 21 04:22:15 calvinserver kernel: [62585.319080] docker0: port 1(vethedf7cec) entered disabled state
+Jan 21 04:22:15 calvinserver systemd-udevd[87071]: vethb2e3067: Failed to get link config: No such device
+Jan 21 04:22:15 calvinserver systemd-networkd[689]: vethedf7cec: Link DOWN
+Jan 21 04:22:15 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '32' we don't know about, ignoring.
+Jan 21 04:22:15 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '32' we don't know about, ignoring.
+Jan 21 04:22:15 calvinserver systemd-networkd[689]: vethb2e3067: Failed to wait for the interface to be initialized: No such device
+Jan 21 04:22:15 calvinserver systemd[4154]: run-docker-netns-00efd79e3ff3.mount: Succeeded.
+Jan 21 04:22:15 calvinserver systemd[1]: run-docker-netns-00efd79e3ff3.mount: Succeeded.
+Jan 21 04:22:15 calvinserver systemd[4154]: var-lib-docker-overlay2-992e1816a1b205e53e96a446922d079a4ed7767626dc1103e68920d00eb64161-merged.mount: Succeeded.
+Jan 21 04:22:15 calvinserver systemd[1]: var-lib-docker-overlay2-992e1816a1b205e53e96a446922d079a4ed7767626dc1103e68920d00eb64161-merged.mount: Succeeded.
+Jan 21 04:22:20 calvinserver dockerd[853]: time="2024-01-21T04:22:20.754901993Z" level=error msg="Error setting up exec command in container prometheus: Container 957e03c5e0bc185e86b43dc98f5269d8d68072ff0bd6c996b782e9c1b91249cd is not running"
+Jan 21 04:22:42 calvinserver systemd[1]: var-lib-docker-overlay2-0a3af11c7be6b3fee2fa9c6ca7af68d99dde1450e5927a5c42fe812bcef1e352\x2dinit-merged.mount: Succeeded.
+Jan 21 04:22:42 calvinserver systemd[4154]: var-lib-docker-overlay2-0a3af11c7be6b3fee2fa9c6ca7af68d99dde1450e5927a5c42fe812bcef1e352\x2dinit-merged.mount: Succeeded.
+Jan 21 04:22:42 calvinserver systemd[1]: var-lib-docker-overlay2-0a3af11c7be6b3fee2fa9c6ca7af68d99dde1450e5927a5c42fe812bcef1e352-merged.mount: Succeeded.
+Jan 21 04:22:42 calvinserver systemd[4154]: var-lib-docker-overlay2-0a3af11c7be6b3fee2fa9c6ca7af68d99dde1450e5927a5c42fe812bcef1e352-merged.mount: Succeeded.
+Jan 21 04:22:42 calvinserver kernel: [62612.464038] docker0: port 1(veth51994ca) entered blocking state
+Jan 21 04:22:42 calvinserver kernel: [62612.464064] docker0: port 1(veth51994ca) entered disabled state
+Jan 21 04:22:42 calvinserver kernel: [62612.464990] device veth51994ca entered promiscuous mode
+Jan 21 04:22:42 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 33 seen, reloading interface list
+Jan 21 04:22:42 calvinserver systemd-networkd[689]: veth51994ca: Link UP
+Jan 21 04:22:42 calvinserver systemd-udevd[87242]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:22:42 calvinserver systemd-udevd[87242]: Using default interface naming scheme 'v245'.
+Jan 21 04:22:42 calvinserver systemd-udevd[87242]: veth5816cdf: Could not generate persistent MAC: No data available
+Jan 21 04:22:42 calvinserver systemd-udevd[87243]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:22:42 calvinserver systemd-udevd[87243]: Using default interface naming scheme 'v245'.
+Jan 21 04:22:42 calvinserver systemd-udevd[87243]: veth51994ca: Could not generate persistent MAC: No data available
+Jan 21 04:22:43 calvinserver containerd[738]: time="2024-01-21T04:22:43.371813831Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 04:22:43 calvinserver containerd[738]: time="2024-01-21T04:22:43.373168632Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 04:22:43 calvinserver containerd[738]: time="2024-01-21T04:22:43.373297688Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 04:22:43 calvinserver containerd[738]: time="2024-01-21T04:22:43.376996435Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/87930b602a9407b57db2c128b571022afe772bc983723d7891f61f2343f032b9 pid=87281 runtime=io.containerd.runc.v2
+Jan 21 04:22:44 calvinserver kernel: [62614.018955] eth0: renamed from veth5816cdf
+Jan 21 04:22:44 calvinserver kernel: [62614.043530] IPv6: ADDRCONF(NETDEV_CHANGE): veth51994ca: link becomes ready
+Jan 21 04:22:44 calvinserver kernel: [62614.043770] docker0: port 1(veth51994ca) entered blocking state
+Jan 21 04:22:44 calvinserver kernel: [62614.043786] docker0: port 1(veth51994ca) entered forwarding state
+Jan 21 04:22:44 calvinserver systemd-networkd[689]: veth51994ca: Gained carrier
+Jan 21 04:22:46 calvinserver systemd-networkd[689]: veth51994ca: Gained IPv6LL
+Jan 21 04:23:17 calvinserver dockerd[853]: time="2024-01-21T04:23:17.253681928Z" level=error msg="stream copy error: reading from a closed fifo"
+Jan 21 04:23:17 calvinserver dockerd[853]: time="2024-01-21T04:23:17.329250887Z" level=error msg="Error running exec b777a841b6c70bec5cbc023cc482eed1030145d64325256f67251e92ff3db3bd in container: OCI runtime exec failed: exec failed: unable to start container process: exec: \"bash\": executable file not found in $PATH: unknown"
+Jan 21 04:23:17 calvinserver dockerd[853]: time="2024-01-21T04:23:17.345450480Z" level=error msg="failed to close container stdin" container=87930b602a9407b57db2c128b571022afe772bc983723d7891f61f2343f032b9 error="process does not exist b777a841b6c70bec5cbc023cc482eed1030145d64325256f67251e92ff3db3bd: not found" module=libcontainerd namespace=moby
+Jan 21 04:25:41 calvinserver systemd[1]: Started Session 37 of user calvin.
+Jan 21 04:26:21 calvinserver dockerd[853]: time="2024-01-21T04:26:21.912357394Z" level=info msg="ignoring event" container=87930b602a9407b57db2c128b571022afe772bc983723d7891f61f2343f032b9 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 04:26:21 calvinserver containerd[738]: time="2024-01-21T04:26:21.913765302Z" level=info msg="shim disconnected" id=87930b602a9407b57db2c128b571022afe772bc983723d7891f61f2343f032b9
+Jan 21 04:26:21 calvinserver containerd[738]: time="2024-01-21T04:26:21.914204435Z" level=warning msg="cleaning up after shim disconnected" id=87930b602a9407b57db2c128b571022afe772bc983723d7891f61f2343f032b9 namespace=moby
+Jan 21 04:26:21 calvinserver containerd[738]: time="2024-01-21T04:26:21.914296340Z" level=info msg="cleaning up dead shim"
+Jan 21 04:26:22 calvinserver containerd[738]: time="2024-01-21T04:26:22.190128074Z" level=warning msg="cleanup warnings time=\"2024-01-21T04:26:22Z\" level=info msg=\"starting signal loop\" namespace=moby pid=87834 runtime=io.containerd.runc.v2\n"
+Jan 21 04:26:22 calvinserver kernel: [62831.989417] docker0: port 1(veth51994ca) entered disabled state
+Jan 21 04:26:22 calvinserver kernel: [62831.994675] veth5816cdf: renamed from eth0
+Jan 21 04:26:22 calvinserver systemd-networkd[689]: veth51994ca: Lost carrier
+Jan 21 04:26:22 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 33 seen, reloading interface list
+Jan 21 04:26:22 calvinserver systemd-udevd[87853]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:26:22 calvinserver systemd-udevd[87853]: Using default interface naming scheme 'v245'.
+Jan 21 04:26:22 calvinserver kernel: [62832.121005] docker0: port 1(veth51994ca) entered disabled state
+Jan 21 04:26:22 calvinserver systemd-networkd[689]: veth51994ca: Link DOWN
+Jan 21 04:26:22 calvinserver kernel: [62832.155014] device veth51994ca left promiscuous mode
+Jan 21 04:26:22 calvinserver kernel: [62832.155056] docker0: port 1(veth51994ca) entered disabled state
+Jan 21 04:26:22 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '34' we don't know about, ignoring.
+Jan 21 04:26:22 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '34' we don't know about, ignoring.
+Jan 21 04:26:22 calvinserver systemd-udevd[87853]: veth5816cdf: Failed to get link config: No such device
+Jan 21 04:26:22 calvinserver systemd[1]: run-docker-netns-5f12ac7ddd59.mount: Succeeded.
+Jan 21 04:26:22 calvinserver systemd[4154]: run-docker-netns-5f12ac7ddd59.mount: Succeeded.
+Jan 21 04:26:22 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 35 seen, reloading interface list
+Jan 21 04:26:22 calvinserver systemd-udevd[87853]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:26:22 calvinserver systemd-udevd[87853]: vethe41fec4: Could not generate persistent MAC: No data available
+Jan 21 04:26:22 calvinserver kernel: [62832.471071] docker0: port 1(vethcb5e2ef) entered blocking state
+Jan 21 04:26:22 calvinserver kernel: [62832.471096] docker0: port 1(vethcb5e2ef) entered disabled state
+Jan 21 04:26:22 calvinserver kernel: [62832.486400] device vethcb5e2ef entered promiscuous mode
+Jan 21 04:26:22 calvinserver systemd-networkd[689]: vethcb5e2ef: Link UP
+Jan 21 04:26:22 calvinserver kernel: [62832.499186] docker0: port 1(vethcb5e2ef) entered blocking state
+Jan 21 04:26:22 calvinserver kernel: [62832.499207] docker0: port 1(vethcb5e2ef) entered forwarding state
+Jan 21 04:26:22 calvinserver systemd-udevd[87840]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:26:22 calvinserver systemd-udevd[87840]: Using default interface naming scheme 'v245'.
+Jan 21 04:26:22 calvinserver systemd-udevd[87840]: vethcb5e2ef: Could not generate persistent MAC: No data available
+Jan 21 04:26:23 calvinserver containerd[738]: time="2024-01-21T04:26:23.288510897Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 04:26:23 calvinserver containerd[738]: time="2024-01-21T04:26:23.289562079Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 04:26:23 calvinserver containerd[738]: time="2024-01-21T04:26:23.289684991Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 04:26:23 calvinserver containerd[738]: time="2024-01-21T04:26:23.291600752Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/87930b602a9407b57db2c128b571022afe772bc983723d7891f61f2343f032b9 pid=87907 runtime=io.containerd.runc.v2
+Jan 21 04:26:23 calvinserver kernel: [62833.023627] docker0: port 1(vethcb5e2ef) entered disabled state
+Jan 21 04:26:24 calvinserver kernel: [62833.888002] eth0: renamed from vethe41fec4
+Jan 21 04:26:24 calvinserver kernel: [62833.923865] IPv6: ADDRCONF(NETDEV_CHANGE): vethcb5e2ef: link becomes ready
+Jan 21 04:26:24 calvinserver kernel: [62833.924603] docker0: port 1(vethcb5e2ef) entered blocking state
+Jan 21 04:26:24 calvinserver kernel: [62833.924614] docker0: port 1(vethcb5e2ef) entered forwarding state
+Jan 21 04:26:24 calvinserver systemd-networkd[689]: vethcb5e2ef: Gained carrier
+Jan 21 04:26:24 calvinserver containerd[738]: time="2024-01-21T04:26:24.914580455Z" level=info msg="shim disconnected" id=87930b602a9407b57db2c128b571022afe772bc983723d7891f61f2343f032b9
+Jan 21 04:26:24 calvinserver containerd[738]: time="2024-01-21T04:26:24.914900307Z" level=warning msg="cleaning up after shim disconnected" id=87930b602a9407b57db2c128b571022afe772bc983723d7891f61f2343f032b9 namespace=moby
+Jan 21 04:26:24 calvinserver containerd[738]: time="2024-01-21T04:26:24.914975451Z" level=info msg="cleaning up dead shim"
+Jan 21 04:26:24 calvinserver dockerd[853]: time="2024-01-21T04:26:24.916220220Z" level=info msg="ignoring event" container=87930b602a9407b57db2c128b571022afe772bc983723d7891f61f2343f032b9 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 04:26:25 calvinserver containerd[738]: time="2024-01-21T04:26:25.132061162Z" level=warning msg="cleanup warnings time=\"2024-01-21T04:26:24Z\" level=info msg=\"starting signal loop\" namespace=moby pid=87961 runtime=io.containerd.runc.v2\ntime=\"2024-01-21T04:26:25Z\" level=warning msg=\"failed to remove runc container\" error=\"runc did not terminate successfully: exit status 255: \" runtime=io.containerd.runc.v2\n"
+Jan 21 04:26:25 calvinserver kernel: [62834.944855] docker0: port 1(vethcb5e2ef) entered disabled state
+Jan 21 04:26:25 calvinserver systemd-networkd[689]: vethcb5e2ef: Lost carrier
+Jan 21 04:26:25 calvinserver kernel: [62834.950966] vethe41fec4: renamed from eth0
+Jan 21 04:26:25 calvinserver systemd-udevd[87853]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:26:25 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 35 seen, reloading interface list
+Jan 21 04:26:25 calvinserver kernel: [62835.038735] docker0: port 1(vethcb5e2ef) entered disabled state
+Jan 21 04:26:25 calvinserver systemd-networkd[689]: vethcb5e2ef: Link DOWN
+Jan 21 04:26:25 calvinserver kernel: [62835.094623] device vethcb5e2ef left promiscuous mode
+Jan 21 04:26:25 calvinserver kernel: [62835.094660] docker0: port 1(vethcb5e2ef) entered disabled state
+Jan 21 04:26:25 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '36' we don't know about, ignoring.
+Jan 21 04:26:25 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '36' we don't know about, ignoring.
+Jan 21 04:26:25 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 35 seen even after reload
+Jan 21 04:26:25 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 35 seen, reloading interface list
+Jan 21 04:26:25 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 35 seen even after reload
+Jan 21 04:26:25 calvinserver systemd-udevd[87853]: vethe41fec4: Failed to get link config: No such device
+Jan 21 04:26:25 calvinserver systemd[1]: run-docker-netns-86ee168d7d31.mount: Succeeded.
+Jan 21 04:26:25 calvinserver systemd[4154]: run-docker-netns-86ee168d7d31.mount: Succeeded.
+Jan 21 04:26:25 calvinserver systemd[4154]: var-lib-docker-overlay2-0a3af11c7be6b3fee2fa9c6ca7af68d99dde1450e5927a5c42fe812bcef1e352-merged.mount: Succeeded.
+Jan 21 04:26:25 calvinserver systemd[1]: var-lib-docker-overlay2-0a3af11c7be6b3fee2fa9c6ca7af68d99dde1450e5927a5c42fe812bcef1e352-merged.mount: Succeeded.
+Jan 21 04:27:00 calvinserver kernel: [62869.682307] docker0: port 1(veth9fd4fa7) entered blocking state
+Jan 21 04:27:00 calvinserver kernel: [62869.685119] docker0: port 1(veth9fd4fa7) entered disabled state
+Jan 21 04:27:00 calvinserver kernel: [62869.696128] device veth9fd4fa7 entered promiscuous mode
+Jan 21 04:27:00 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 37 seen, reloading interface list
+Jan 21 04:27:00 calvinserver systemd-udevd[88083]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:27:00 calvinserver systemd-udevd[88083]: Using default interface naming scheme 'v245'.
+Jan 21 04:27:00 calvinserver systemd-udevd[88083]: veth9eec593: Could not generate persistent MAC: No data available
+Jan 21 04:27:00 calvinserver systemd-networkd[689]: veth9fd4fa7: Link UP
+Jan 21 04:27:00 calvinserver systemd-udevd[88084]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:27:00 calvinserver systemd-udevd[88084]: Using default interface naming scheme 'v245'.
+Jan 21 04:27:00 calvinserver systemd-udevd[88084]: veth9fd4fa7: Could not generate persistent MAC: No data available
+Jan 21 04:27:01 calvinserver containerd[738]: time="2024-01-21T04:27:01.053353460Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 04:27:01 calvinserver containerd[738]: time="2024-01-21T04:27:01.054641251Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 04:27:01 calvinserver containerd[738]: time="2024-01-21T04:27:01.054774221Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 04:27:01 calvinserver containerd[738]: time="2024-01-21T04:27:01.060210042Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/87930b602a9407b57db2c128b571022afe772bc983723d7891f61f2343f032b9 pid=88121 runtime=io.containerd.runc.v2
+Jan 21 04:27:02 calvinserver kernel: [62872.219121] eth0: renamed from veth9eec593
+Jan 21 04:27:02 calvinserver kernel: [62872.255658] IPv6: ADDRCONF(NETDEV_CHANGE): veth9fd4fa7: link becomes ready
+Jan 21 04:27:02 calvinserver kernel: [62872.255889] docker0: port 1(veth9fd4fa7) entered blocking state
+Jan 21 04:27:02 calvinserver kernel: [62872.255901] docker0: port 1(veth9fd4fa7) entered forwarding state
+Jan 21 04:27:02 calvinserver systemd-networkd[689]: veth9fd4fa7: Gained carrier
+Jan 21 04:27:03 calvinserver containerd[738]: time="2024-01-21T04:27:03.388995433Z" level=info msg="shim disconnected" id=87930b602a9407b57db2c128b571022afe772bc983723d7891f61f2343f032b9
+Jan 21 04:27:03 calvinserver dockerd[853]: time="2024-01-21T04:27:03.390787447Z" level=info msg="ignoring event" container=87930b602a9407b57db2c128b571022afe772bc983723d7891f61f2343f032b9 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 04:27:03 calvinserver containerd[738]: time="2024-01-21T04:27:03.400180784Z" level=warning msg="cleaning up after shim disconnected" id=87930b602a9407b57db2c128b571022afe772bc983723d7891f61f2343f032b9 namespace=moby
+Jan 21 04:27:03 calvinserver containerd[738]: time="2024-01-21T04:27:03.400378842Z" level=info msg="cleaning up dead shim"
+Jan 21 04:27:03 calvinserver containerd[738]: time="2024-01-21T04:27:03.584795923Z" level=warning msg="cleanup warnings time=\"2024-01-21T04:27:03Z\" level=info msg=\"starting signal loop\" namespace=moby pid=88191 runtime=io.containerd.runc.v2\n"
+Jan 21 04:27:03 calvinserver kernel: [62873.412899] docker0: port 1(veth9fd4fa7) entered disabled state
+Jan 21 04:27:03 calvinserver kernel: [62873.413339] veth9eec593: renamed from eth0
+Jan 21 04:27:03 calvinserver systemd-networkd[689]: veth9fd4fa7: Lost carrier
+Jan 21 04:27:03 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 37 seen, reloading interface list
+Jan 21 04:27:03 calvinserver systemd-udevd[88150]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:27:03 calvinserver systemd-networkd[689]: veth9fd4fa7: Gained IPv6LL
+Jan 21 04:27:03 calvinserver systemd-udevd[88150]: Using default interface naming scheme 'v245'.
+Jan 21 04:27:03 calvinserver kernel: [62873.553184] docker0: port 1(veth9fd4fa7) entered disabled state
+Jan 21 04:27:03 calvinserver systemd-networkd[689]: veth9fd4fa7: Link DOWN
+Jan 21 04:27:03 calvinserver kernel: [62873.610587] device veth9fd4fa7 left promiscuous mode
+Jan 21 04:27:03 calvinserver kernel: [62873.610623] docker0: port 1(veth9fd4fa7) entered disabled state
+Jan 21 04:27:03 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '38' we don't know about, ignoring.
+Jan 21 04:27:03 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '38' we don't know about, ignoring.
+Jan 21 04:27:04 calvinserver systemd-udevd[88150]: veth9eec593: Failed to get link config: No such device
+Jan 21 04:27:04 calvinserver systemd[1]: run-docker-netns-b56c30edd8e8.mount: Succeeded.
+Jan 21 04:27:04 calvinserver systemd[4154]: run-docker-netns-b56c30edd8e8.mount: Succeeded.
+Jan 21 04:27:04 calvinserver systemd[1]: var-lib-docker-overlay2-0a3af11c7be6b3fee2fa9c6ca7af68d99dde1450e5927a5c42fe812bcef1e352-merged.mount: Succeeded.
+Jan 21 04:27:04 calvinserver systemd[4154]: var-lib-docker-overlay2-0a3af11c7be6b3fee2fa9c6ca7af68d99dde1450e5927a5c42fe812bcef1e352-merged.mount: Succeeded.
+Jan 21 04:27:35 calvinserver systemd[4154]: var-lib-docker-overlay2-6740b261fc4655552c1cd34afaea92159ee18f32dcd44234c86908c409fb40e3\x2dinit-merged.mount: Succeeded.
+Jan 21 04:27:35 calvinserver systemd[1]: var-lib-docker-overlay2-6740b261fc4655552c1cd34afaea92159ee18f32dcd44234c86908c409fb40e3\x2dinit-merged.mount: Succeeded.
+Jan 21 04:27:35 calvinserver systemd[1]: var-lib-docker-overlay2-6740b261fc4655552c1cd34afaea92159ee18f32dcd44234c86908c409fb40e3-merged.mount: Succeeded.
+Jan 21 04:27:35 calvinserver systemd[4154]: var-lib-docker-overlay2-6740b261fc4655552c1cd34afaea92159ee18f32dcd44234c86908c409fb40e3-merged.mount: Succeeded.
+Jan 21 04:27:35 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 39 seen, reloading interface list
+Jan 21 04:27:35 calvinserver systemd-udevd[88259]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:27:35 calvinserver systemd-udevd[88259]: Using default interface naming scheme 'v245'.
+Jan 21 04:27:35 calvinserver systemd-udevd[88259]: vethf813301: Could not generate persistent MAC: No data available
+Jan 21 04:27:35 calvinserver kernel: [62905.548851] docker0: port 1(veth2fec6cc) entered blocking state
+Jan 21 04:27:35 calvinserver kernel: [62905.548877] docker0: port 1(veth2fec6cc) entered disabled state
+Jan 21 04:27:35 calvinserver kernel: [62905.554658] device veth2fec6cc entered promiscuous mode
+Jan 21 04:27:35 calvinserver systemd-networkd[689]: veth2fec6cc: Link UP
+Jan 21 04:27:35 calvinserver systemd-udevd[88260]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:27:35 calvinserver systemd-udevd[88260]: Using default interface naming scheme 'v245'.
+Jan 21 04:27:35 calvinserver systemd-udevd[88260]: veth2fec6cc: Could not generate persistent MAC: No data available
+Jan 21 04:27:36 calvinserver containerd[738]: time="2024-01-21T04:27:36.394467135Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 04:27:36 calvinserver containerd[738]: time="2024-01-21T04:27:36.395482844Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 04:27:36 calvinserver containerd[738]: time="2024-01-21T04:27:36.395596818Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 04:27:36 calvinserver containerd[738]: time="2024-01-21T04:27:36.397593876Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea pid=88294 runtime=io.containerd.runc.v2
+Jan 21 04:27:37 calvinserver kernel: [62907.164039] eth0: renamed from vethf813301
+Jan 21 04:27:37 calvinserver kernel: [62907.205539] IPv6: ADDRCONF(NETDEV_CHANGE): veth2fec6cc: link becomes ready
+Jan 21 04:27:37 calvinserver kernel: [62907.206918] docker0: port 1(veth2fec6cc) entered blocking state
+Jan 21 04:27:37 calvinserver kernel: [62907.206930] docker0: port 1(veth2fec6cc) entered forwarding state
+Jan 21 04:27:37 calvinserver systemd-networkd[689]: veth2fec6cc: Gained carrier
+Jan 21 04:27:38 calvinserver systemd-networkd[689]: veth2fec6cc: Gained IPv6LL
+Jan 21 04:33:30 calvinserver containerd[738]: time="2024-01-21T04:33:30.869836278Z" level=info msg="shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea
+Jan 21 04:33:30 calvinserver containerd[738]: time="2024-01-21T04:33:30.870392464Z" level=warning msg="cleaning up after shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea namespace=moby
+Jan 21 04:33:30 calvinserver containerd[738]: time="2024-01-21T04:33:30.870484371Z" level=info msg="cleaning up dead shim"
+Jan 21 04:33:30 calvinserver dockerd[853]: time="2024-01-21T04:33:30.881082929Z" level=info msg="ignoring event" container=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 04:33:31 calvinserver containerd[738]: time="2024-01-21T04:33:31.051292867Z" level=warning msg="cleanup warnings time=\"2024-01-21T04:33:30Z\" level=info msg=\"starting signal loop\" namespace=moby pid=88612 runtime=io.containerd.runc.v2\n"
+Jan 21 04:33:31 calvinserver kernel: [63260.944539] docker0: port 1(veth2fec6cc) entered disabled state
+Jan 21 04:33:31 calvinserver kernel: [63260.945030] vethf813301: renamed from eth0
+Jan 21 04:33:31 calvinserver systemd-networkd[689]: veth2fec6cc: Lost carrier
+Jan 21 04:33:31 calvinserver systemd-udevd[88621]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:33:31 calvinserver systemd-udevd[88621]: Using default interface naming scheme 'v245'.
+Jan 21 04:33:31 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 39 seen, reloading interface list
+Jan 21 04:33:31 calvinserver kernel: [63261.075257] docker0: port 1(veth2fec6cc) entered disabled state
+Jan 21 04:33:31 calvinserver systemd-networkd[689]: veth2fec6cc: Link DOWN
+Jan 21 04:33:31 calvinserver kernel: [63261.143145] device veth2fec6cc left promiscuous mode
+Jan 21 04:33:31 calvinserver kernel: [63261.143177] docker0: port 1(veth2fec6cc) entered disabled state
+Jan 21 04:33:31 calvinserver systemd-udevd[88621]: vethf813301: Failed to get link config: No such device
+Jan 21 04:33:31 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '40' we don't know about, ignoring.
+Jan 21 04:33:31 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '40' we don't know about, ignoring.
+Jan 21 04:33:31 calvinserver systemd-networkd[689]: vethf813301: Failed to wait for the interface to be initialized: No such device
+Jan 21 04:33:31 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 39 seen even after reload
+Jan 21 04:33:31 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 39 seen, reloading interface list
+Jan 21 04:33:31 calvinserver systemd[1]: run-docker-netns-b79b76f15ee6.mount: Succeeded.
+Jan 21 04:33:31 calvinserver systemd[4154]: run-docker-netns-b79b76f15ee6.mount: Succeeded.
+Jan 21 04:33:31 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 39 seen even after reload
+Jan 21 04:33:31 calvinserver kernel: [63261.518721] docker0: port 1(vethdbab570) entered blocking state
+Jan 21 04:33:31 calvinserver kernel: [63261.518744] docker0: port 1(vethdbab570) entered disabled state
+Jan 21 04:33:31 calvinserver kernel: [63261.519177] device vethdbab570 entered promiscuous mode
+Jan 21 04:33:31 calvinserver kernel: [63261.519636] docker0: port 1(vethdbab570) entered blocking state
+Jan 21 04:33:31 calvinserver kernel: [63261.519645] docker0: port 1(vethdbab570) entered forwarding state
+Jan 21 04:33:31 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 41 seen, reloading interface list
+Jan 21 04:33:31 calvinserver systemd-udevd[88621]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:33:31 calvinserver systemd-udevd[88621]: vethcad9515: Could not generate persistent MAC: No data available
+Jan 21 04:33:31 calvinserver systemd-udevd[88631]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:33:31 calvinserver systemd-udevd[88631]: Using default interface naming scheme 'v245'.
+Jan 21 04:33:31 calvinserver systemd-udevd[88631]: vethdbab570: Could not generate persistent MAC: No data available
+Jan 21 04:33:31 calvinserver systemd-networkd[689]: vethdbab570: Link UP
+Jan 21 04:33:32 calvinserver kernel: [63261.952605] docker0: port 1(vethdbab570) entered disabled state
+Jan 21 04:33:32 calvinserver containerd[738]: time="2024-01-21T04:33:32.431283813Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 04:33:32 calvinserver containerd[738]: time="2024-01-21T04:33:32.431970736Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 04:33:32 calvinserver containerd[738]: time="2024-01-21T04:33:32.432080800Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 04:33:32 calvinserver containerd[738]: time="2024-01-21T04:33:32.434240459Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea pid=88687 runtime=io.containerd.runc.v2
+Jan 21 04:33:32 calvinserver systemd[4154]: run-docker-runtime\x2drunc-moby-e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea-runc.TAAsYD.mount: Succeeded.
+Jan 21 04:33:32 calvinserver systemd[1]: run-docker-runtime\x2drunc-moby-e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea-runc.TAAsYD.mount: Succeeded.
+Jan 21 04:33:33 calvinserver kernel: [63263.188236] eth0: renamed from vethcad9515
+Jan 21 04:33:33 calvinserver kernel: [63263.207790] IPv6: ADDRCONF(NETDEV_CHANGE): vethdbab570: link becomes ready
+Jan 21 04:33:33 calvinserver kernel: [63263.208020] docker0: port 1(vethdbab570) entered blocking state
+Jan 21 04:33:33 calvinserver kernel: [63263.208031] docker0: port 1(vethdbab570) entered forwarding state
+Jan 21 04:33:33 calvinserver systemd-networkd[689]: vethdbab570: Gained carrier
+Jan 21 04:33:35 calvinserver systemd-networkd[689]: vethdbab570: Gained IPv6LL
+Jan 21 04:34:12 calvinserver dockerd[853]: time="2024-01-21T04:34:12.217074521Z" level=info msg="ignoring event" container=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 04:34:12 calvinserver containerd[738]: time="2024-01-21T04:34:12.227387028Z" level=info msg="shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea
+Jan 21 04:34:12 calvinserver containerd[738]: time="2024-01-21T04:34:12.227861087Z" level=warning msg="cleaning up after shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea namespace=moby
+Jan 21 04:34:12 calvinserver containerd[738]: time="2024-01-21T04:34:12.229688878Z" level=info msg="cleaning up dead shim"
+Jan 21 04:34:12 calvinserver containerd[738]: time="2024-01-21T04:34:12.473909214Z" level=warning msg="cleanup warnings time=\"2024-01-21T04:34:12Z\" level=info msg=\"starting signal loop\" namespace=moby pid=88816 runtime=io.containerd.runc.v2\n"
+Jan 21 04:34:12 calvinserver kernel: [63302.293636] docker0: port 1(vethdbab570) entered disabled state
+Jan 21 04:34:12 calvinserver kernel: [63302.294132] vethcad9515: renamed from eth0
+Jan 21 04:34:12 calvinserver systemd-networkd[689]: vethdbab570: Lost carrier
+Jan 21 04:34:12 calvinserver systemd-udevd[88833]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:34:12 calvinserver systemd-udevd[88833]: Using default interface naming scheme 'v245'.
+Jan 21 04:34:12 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 41 seen, reloading interface list
+Jan 21 04:34:12 calvinserver kernel: [63302.477680] docker0: port 1(vethdbab570) entered disabled state
+Jan 21 04:34:12 calvinserver systemd-networkd[689]: vethdbab570: Link DOWN
+Jan 21 04:34:12 calvinserver kernel: [63302.535491] device vethdbab570 left promiscuous mode
+Jan 21 04:34:12 calvinserver kernel: [63302.535530] docker0: port 1(vethdbab570) entered disabled state
+Jan 21 04:34:12 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '42' we don't know about, ignoring.
+Jan 21 04:34:12 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '42' we don't know about, ignoring.
+Jan 21 04:34:12 calvinserver systemd-networkd[689]: vethcad9515: Failed to wait for the interface to be initialized: No such device
+Jan 21 04:34:12 calvinserver systemd-udevd[88833]: vethcad9515: Failed to get link config: No such device
+Jan 21 04:34:13 calvinserver systemd[1]: run-docker-netns-9783dd72be05.mount: Succeeded.
+Jan 21 04:34:13 calvinserver systemd[4154]: run-docker-netns-9783dd72be05.mount: Succeeded.
+Jan 21 04:34:13 calvinserver kernel: [63302.823896] docker0: port 1(veth7a7e517) entered blocking state
+Jan 21 04:34:13 calvinserver kernel: [63302.823920] docker0: port 1(veth7a7e517) entered disabled state
+Jan 21 04:34:13 calvinserver kernel: [63302.830583] device veth7a7e517 entered promiscuous mode
+Jan 21 04:34:13 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 43 seen, reloading interface list
+Jan 21 04:34:13 calvinserver kernel: [63302.842390] docker0: port 1(veth7a7e517) entered blocking state
+Jan 21 04:34:13 calvinserver kernel: [63302.842412] docker0: port 1(veth7a7e517) entered forwarding state
+Jan 21 04:34:13 calvinserver systemd-udevd[88825]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:34:13 calvinserver systemd-udevd[88825]: Using default interface naming scheme 'v245'.
+Jan 21 04:34:13 calvinserver systemd-udevd[88825]: veth7a7e517: Could not generate persistent MAC: No data available
+Jan 21 04:34:13 calvinserver systemd-udevd[88833]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:34:13 calvinserver systemd-networkd[689]: veth7a7e517: Link UP
+Jan 21 04:34:13 calvinserver systemd-udevd[88833]: veth70b28e3: Could not generate persistent MAC: No data available
+Jan 21 04:34:13 calvinserver kernel: [63303.322969] docker0: port 1(veth7a7e517) entered disabled state
+Jan 21 04:34:13 calvinserver containerd[738]: time="2024-01-21T04:34:13.679938815Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 04:34:13 calvinserver containerd[738]: time="2024-01-21T04:34:13.681422726Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 04:34:13 calvinserver containerd[738]: time="2024-01-21T04:34:13.681716603Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 04:34:13 calvinserver containerd[738]: time="2024-01-21T04:34:13.690291271Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea pid=88884 runtime=io.containerd.runc.v2
+Jan 21 04:34:14 calvinserver kernel: [63304.320181] eth0: renamed from veth70b28e3
+Jan 21 04:34:14 calvinserver kernel: [63304.355762] IPv6: ADDRCONF(NETDEV_CHANGE): veth7a7e517: link becomes ready
+Jan 21 04:34:14 calvinserver kernel: [63304.356007] docker0: port 1(veth7a7e517) entered blocking state
+Jan 21 04:34:14 calvinserver kernel: [63304.356018] docker0: port 1(veth7a7e517) entered forwarding state
+Jan 21 04:34:14 calvinserver systemd-networkd[689]: veth7a7e517: Gained carrier
+Jan 21 04:34:15 calvinserver systemd-networkd[689]: veth7a7e517: Gained IPv6LL
+Jan 21 04:35:08 calvinserver dockerd[853]: time="2024-01-21T04:35:08.905733794Z" level=info msg="ignoring event" container=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 04:35:08 calvinserver containerd[738]: time="2024-01-21T04:35:08.909761566Z" level=info msg="shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea
+Jan 21 04:35:08 calvinserver containerd[738]: time="2024-01-21T04:35:08.912951978Z" level=warning msg="cleaning up after shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea namespace=moby
+Jan 21 04:35:08 calvinserver containerd[738]: time="2024-01-21T04:35:08.913090048Z" level=info msg="cleaning up dead shim"
+Jan 21 04:35:09 calvinserver containerd[738]: time="2024-01-21T04:35:09.038422448Z" level=warning msg="cleanup warnings time=\"2024-01-21T04:35:08Z\" level=info msg=\"starting signal loop\" namespace=moby pid=89042 runtime=io.containerd.runc.v2\n"
+Jan 21 04:35:09 calvinserver kernel: [63359.002454] docker0: port 1(veth7a7e517) entered disabled state
+Jan 21 04:35:09 calvinserver kernel: [63359.002869] veth70b28e3: renamed from eth0
+Jan 21 04:35:09 calvinserver systemd-networkd[689]: veth7a7e517: Lost carrier
+Jan 21 04:35:09 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 43 seen, reloading interface list
+Jan 21 04:35:09 calvinserver systemd-udevd[89055]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:35:09 calvinserver systemd-udevd[89055]: Using default interface naming scheme 'v245'.
+Jan 21 04:35:09 calvinserver kernel: [63359.162956] docker0: port 1(veth7a7e517) entered disabled state
+Jan 21 04:35:09 calvinserver systemd-networkd[689]: veth7a7e517: Link DOWN
+Jan 21 04:35:09 calvinserver kernel: [63359.211337] device veth7a7e517 left promiscuous mode
+Jan 21 04:35:09 calvinserver kernel: [63359.211375] docker0: port 1(veth7a7e517) entered disabled state
+Jan 21 04:35:09 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '44' we don't know about, ignoring.
+Jan 21 04:35:09 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '44' we don't know about, ignoring.
+Jan 21 04:35:09 calvinserver systemd-udevd[89055]: veth70b28e3: Failed to get link config: No such device
+Jan 21 04:35:09 calvinserver systemd[4154]: run-docker-netns-f1312bbb9079.mount: Succeeded.
+Jan 21 04:35:09 calvinserver systemd[1]: run-docker-netns-f1312bbb9079.mount: Succeeded.
+Jan 21 04:35:09 calvinserver systemd-networkd[689]: vetha2f9c8c: Link UP
+Jan 21 04:35:09 calvinserver kernel: [63359.435890] docker0: port 1(vetha2f9c8c) entered blocking state
+Jan 21 04:35:09 calvinserver kernel: [63359.435914] docker0: port 1(vetha2f9c8c) entered disabled state
+Jan 21 04:35:09 calvinserver kernel: [63359.436248] device vetha2f9c8c entered promiscuous mode
+Jan 21 04:35:09 calvinserver kernel: [63359.436695] docker0: port 1(vetha2f9c8c) entered blocking state
+Jan 21 04:35:09 calvinserver kernel: [63359.436704] docker0: port 1(vetha2f9c8c) entered forwarding state
+Jan 21 04:35:09 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 45 seen, reloading interface list
+Jan 21 04:35:09 calvinserver systemd-udevd[89058]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:35:09 calvinserver systemd-udevd[89058]: Using default interface naming scheme 'v245'.
+Jan 21 04:35:09 calvinserver systemd-udevd[89058]: vetha2f9c8c: Could not generate persistent MAC: No data available
+Jan 21 04:35:09 calvinserver systemd-udevd[89055]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:35:09 calvinserver systemd-udevd[89055]: vethe932cfe: Could not generate persistent MAC: No data available
+Jan 21 04:35:10 calvinserver containerd[738]: time="2024-01-21T04:35:10.288792656Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 04:35:10 calvinserver containerd[738]: time="2024-01-21T04:35:10.296757339Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 04:35:10 calvinserver containerd[738]: time="2024-01-21T04:35:10.301378459Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 04:35:10 calvinserver containerd[738]: time="2024-01-21T04:35:10.304304740Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea pid=89111 runtime=io.containerd.runc.v2
+Jan 21 04:35:10 calvinserver kernel: [63360.026077] docker0: port 1(vetha2f9c8c) entered disabled state
+Jan 21 04:35:11 calvinserver kernel: [63360.903470] eth0: renamed from vethe932cfe
+Jan 21 04:35:11 calvinserver kernel: [63360.943038] IPv6: ADDRCONF(NETDEV_CHANGE): vetha2f9c8c: link becomes ready
+Jan 21 04:35:11 calvinserver kernel: [63360.943261] docker0: port 1(vetha2f9c8c) entered blocking state
+Jan 21 04:35:11 calvinserver kernel: [63360.943272] docker0: port 1(vetha2f9c8c) entered forwarding state
+Jan 21 04:35:11 calvinserver systemd-networkd[689]: vetha2f9c8c: Gained carrier
+Jan 21 04:35:12 calvinserver systemd-networkd[689]: vetha2f9c8c: Gained IPv6LL
+Jan 21 04:36:59 calvinserver dockerd[853]: time="2024-01-21T04:36:59.139634515Z" level=info msg="ignoring event" container=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 04:36:59 calvinserver containerd[738]: time="2024-01-21T04:36:59.147791910Z" level=info msg="shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea
+Jan 21 04:36:59 calvinserver containerd[738]: time="2024-01-21T04:36:59.167792913Z" level=warning msg="cleaning up after shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea namespace=moby
+Jan 21 04:36:59 calvinserver containerd[738]: time="2024-01-21T04:36:59.168174081Z" level=info msg="cleaning up dead shim"
+Jan 21 04:36:59 calvinserver containerd[738]: time="2024-01-21T04:36:59.314066017Z" level=warning msg="cleanup warnings time=\"2024-01-21T04:36:59Z\" level=info msg=\"starting signal loop\" namespace=moby pid=89262 runtime=io.containerd.runc.v2\n"
+Jan 21 04:36:59 calvinserver kernel: [63469.476883] docker0: port 1(vetha2f9c8c) entered disabled state
+Jan 21 04:36:59 calvinserver kernel: [63469.477419] vethe932cfe: renamed from eth0
+Jan 21 04:36:59 calvinserver systemd-networkd[689]: vetha2f9c8c: Lost carrier
+Jan 21 04:37:00 calvinserver systemd-udevd[89280]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:37:00 calvinserver systemd-udevd[89280]: Using default interface naming scheme 'v245'.
+Jan 21 04:37:00 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 45 seen, reloading interface list
+Jan 21 04:37:00 calvinserver kernel: [63469.894774] docker0: port 1(vetha2f9c8c) entered disabled state
+Jan 21 04:37:00 calvinserver systemd-networkd[689]: vetha2f9c8c: Link DOWN
+Jan 21 04:37:00 calvinserver kernel: [63469.955149] device vetha2f9c8c left promiscuous mode
+Jan 21 04:37:00 calvinserver kernel: [63469.955189] docker0: port 1(vetha2f9c8c) entered disabled state
+Jan 21 04:37:00 calvinserver systemd-udevd[89280]: vethe932cfe: Failed to get link config: No such device
+Jan 21 04:37:00 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '46' we don't know about, ignoring.
+Jan 21 04:37:00 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '46' we don't know about, ignoring.
+Jan 21 04:37:00 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 45 seen even after reload
+Jan 21 04:37:00 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 45 seen, reloading interface list
+Jan 21 04:37:00 calvinserver systemd[1]: run-docker-netns-d23cab6200b2.mount: Succeeded.
+Jan 21 04:37:00 calvinserver systemd[4154]: run-docker-netns-d23cab6200b2.mount: Succeeded.
+Jan 21 04:37:00 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 45 seen even after reload
+Jan 21 04:37:00 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 45 seen, reloading interface list
+Jan 21 04:37:00 calvinserver kernel: [63470.676827] docker0: port 1(veth8410250) entered blocking state
+Jan 21 04:37:00 calvinserver kernel: [63470.676856] docker0: port 1(veth8410250) entered disabled state
+Jan 21 04:37:00 calvinserver kernel: [63470.682294] device veth8410250 entered promiscuous mode
+Jan 21 04:37:01 calvinserver systemd-udevd[89280]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:37:01 calvinserver systemd-networkd[689]: veth8410250: Link UP
+Jan 21 04:37:01 calvinserver systemd-udevd[89284]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:37:01 calvinserver systemd-udevd[89284]: Using default interface naming scheme 'v245'.
+Jan 21 04:37:01 calvinserver systemd-udevd[89284]: veth8410250: Could not generate persistent MAC: No data available
+Jan 21 04:37:01 calvinserver systemd-udevd[89280]: veth5a7741c: Could not generate persistent MAC: No data available
+Jan 21 04:37:01 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 45 seen even after reload
+Jan 21 04:37:02 calvinserver containerd[738]: time="2024-01-21T04:37:02.156391209Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 04:37:02 calvinserver containerd[738]: time="2024-01-21T04:37:02.157802701Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 04:37:02 calvinserver containerd[738]: time="2024-01-21T04:37:02.157933762Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 04:37:02 calvinserver containerd[738]: time="2024-01-21T04:37:02.170123286Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea pid=89346 runtime=io.containerd.runc.v2
+Jan 21 04:37:03 calvinserver kernel: [63473.363502] eth0: renamed from veth5a7741c
+Jan 21 04:37:03 calvinserver kernel: [63473.402216] IPv6: ADDRCONF(NETDEV_CHANGE): veth8410250: link becomes ready
+Jan 21 04:37:03 calvinserver kernel: [63473.402503] docker0: port 1(veth8410250) entered blocking state
+Jan 21 04:37:03 calvinserver kernel: [63473.402518] docker0: port 1(veth8410250) entered forwarding state
+Jan 21 04:37:03 calvinserver systemd-networkd[689]: veth8410250: Gained carrier
+Jan 21 04:37:05 calvinserver systemd-networkd[689]: veth8410250: Gained IPv6LL
+Jan 21 04:37:47 calvinserver dockerd[853]: time="2024-01-21T04:37:47.641124182Z" level=info msg="ignoring event" container=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 04:37:47 calvinserver containerd[738]: time="2024-01-21T04:37:47.643152601Z" level=info msg="shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea
+Jan 21 04:37:47 calvinserver containerd[738]: time="2024-01-21T04:37:47.643583770Z" level=warning msg="cleaning up after shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea namespace=moby
+Jan 21 04:37:47 calvinserver containerd[738]: time="2024-01-21T04:37:47.643680734Z" level=info msg="cleaning up dead shim"
+Jan 21 04:37:47 calvinserver containerd[738]: time="2024-01-21T04:37:47.916524018Z" level=warning msg="cleanup warnings time=\"2024-01-21T04:37:47Z\" level=info msg=\"starting signal loop\" namespace=moby pid=89474 runtime=io.containerd.runc.v2\n"
+Jan 21 04:37:48 calvinserver kernel: [63517.711347] docker0: port 1(veth8410250) entered disabled state
+Jan 21 04:37:48 calvinserver kernel: [63517.711863] veth5a7741c: renamed from eth0
+Jan 21 04:37:48 calvinserver systemd-networkd[689]: veth8410250: Lost carrier
+Jan 21 04:37:48 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 47 seen, reloading interface list
+Jan 21 04:37:48 calvinserver systemd-udevd[89478]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:37:48 calvinserver systemd-udevd[89478]: Using default interface naming scheme 'v245'.
+Jan 21 04:37:48 calvinserver kernel: [63517.874650] docker0: port 1(veth8410250) entered disabled state
+Jan 21 04:37:48 calvinserver systemd-networkd[689]: veth8410250: Link DOWN
+Jan 21 04:37:48 calvinserver kernel: [63517.953580] device veth8410250 left promiscuous mode
+Jan 21 04:37:48 calvinserver kernel: [63517.958862] docker0: port 1(veth8410250) entered disabled state
+Jan 21 04:37:48 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '48' we don't know about, ignoring.
+Jan 21 04:37:48 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '48' we don't know about, ignoring.
+Jan 21 04:37:48 calvinserver systemd-networkd[689]: veth5a7741c: Failed to wait for the interface to be initialized: No such device
+Jan 21 04:37:48 calvinserver systemd-udevd[89478]: veth5a7741c: Failed to get link config: No such device
+Jan 21 04:37:48 calvinserver systemd[4154]: run-docker-netns-e6d55a0afcd0.mount: Succeeded.
+Jan 21 04:37:48 calvinserver systemd[1]: run-docker-netns-e6d55a0afcd0.mount: Succeeded.
+Jan 21 04:37:48 calvinserver kernel: [63518.230044] docker0: port 1(vethf7f2db2) entered blocking state
+Jan 21 04:37:48 calvinserver kernel: [63518.230068] docker0: port 1(vethf7f2db2) entered disabled state
+Jan 21 04:37:48 calvinserver kernel: [63518.230412] device vethf7f2db2 entered promiscuous mode
+Jan 21 04:37:48 calvinserver kernel: [63518.230821] docker0: port 1(vethf7f2db2) entered blocking state
+Jan 21 04:37:48 calvinserver kernel: [63518.230830] docker0: port 1(vethf7f2db2) entered forwarding state
+Jan 21 04:37:48 calvinserver systemd-udevd[89495]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:37:48 calvinserver systemd-udevd[89478]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:37:48 calvinserver systemd-udevd[89478]: veth3317ff4: Could not generate persistent MAC: No data available
+Jan 21 04:37:48 calvinserver systemd-udevd[89495]: Using default interface naming scheme 'v245'.
+Jan 21 04:37:48 calvinserver systemd-udevd[89495]: vethf7f2db2: Could not generate persistent MAC: No data available
+Jan 21 04:37:48 calvinserver systemd-networkd[689]: vethf7f2db2: Link UP
+Jan 21 04:37:48 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 49 seen, reloading interface list
+Jan 21 04:37:49 calvinserver kernel: [63518.715279] docker0: port 1(vethf7f2db2) entered disabled state
+Jan 21 04:37:49 calvinserver containerd[738]: time="2024-01-21T04:37:49.109912209Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 04:37:49 calvinserver containerd[738]: time="2024-01-21T04:37:49.110957294Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 04:37:49 calvinserver containerd[738]: time="2024-01-21T04:37:49.111070466Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 04:37:49 calvinserver containerd[738]: time="2024-01-21T04:37:49.113606055Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea pid=89548 runtime=io.containerd.runc.v2
+Jan 21 04:37:50 calvinserver kernel: [63519.806737] eth0: renamed from veth3317ff4
+Jan 21 04:37:50 calvinserver kernel: [63519.827902] IPv6: ADDRCONF(NETDEV_CHANGE): vethf7f2db2: link becomes ready
+Jan 21 04:37:50 calvinserver kernel: [63519.828135] docker0: port 1(vethf7f2db2) entered blocking state
+Jan 21 04:37:50 calvinserver kernel: [63519.828147] docker0: port 1(vethf7f2db2) entered forwarding state
+Jan 21 04:37:50 calvinserver systemd-networkd[689]: vethf7f2db2: Gained carrier
+Jan 21 04:37:52 calvinserver systemd-networkd[689]: vethf7f2db2: Gained IPv6LL
+Jan 21 04:39:26 calvinserver containerd[738]: time="2024-01-21T04:39:26.462379284Z" level=info msg="shim disconnected" id=9e866f960cec0c4ca9a61b6cf8c91993e14b89a917874715cef6948a27341ee7
+Jan 21 04:39:26 calvinserver containerd[738]: time="2024-01-21T04:39:26.462844508Z" level=warning msg="cleaning up after shim disconnected" id=9e866f960cec0c4ca9a61b6cf8c91993e14b89a917874715cef6948a27341ee7 namespace=moby
+Jan 21 04:39:26 calvinserver containerd[738]: time="2024-01-21T04:39:26.462934479Z" level=info msg="cleaning up dead shim"
+Jan 21 04:39:26 calvinserver dockerd[853]: time="2024-01-21T04:39:26.464355577Z" level=info msg="ignoring event" container=9e866f960cec0c4ca9a61b6cf8c91993e14b89a917874715cef6948a27341ee7 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 04:39:26 calvinserver containerd[738]: time="2024-01-21T04:39:26.574011746Z" level=warning msg="cleanup warnings time=\"2024-01-21T04:39:26Z\" level=info msg=\"starting signal loop\" namespace=moby pid=89738 runtime=io.containerd.runc.v2\n"
+Jan 21 04:39:26 calvinserver kernel: [63616.675400] docker0: port 2(veth1967f5b) entered disabled state
+Jan 21 04:39:26 calvinserver kernel: [63616.675881] vetheee151a: renamed from eth0
+Jan 21 04:39:26 calvinserver systemd-networkd[689]: veth1967f5b: Lost carrier
+Jan 21 04:39:27 calvinserver systemd-udevd[89752]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:39:27 calvinserver systemd-udevd[89752]: Using default interface naming scheme 'v245'.
+Jan 21 04:39:27 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 23 seen, reloading interface list
+Jan 21 04:39:27 calvinserver kernel: [63616.812424] docker0: port 2(veth1967f5b) entered disabled state
+Jan 21 04:39:27 calvinserver systemd-networkd[689]: veth1967f5b: Link DOWN
+Jan 21 04:39:27 calvinserver kernel: [63616.857332] device veth1967f5b left promiscuous mode
+Jan 21 04:39:27 calvinserver kernel: [63616.857366] docker0: port 2(veth1967f5b) entered disabled state
+Jan 21 04:39:27 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '24' we don't know about, ignoring.
+Jan 21 04:39:27 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '24' we don't know about, ignoring.
+Jan 21 04:39:27 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 23 seen even after reload
+Jan 21 04:39:27 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 23 seen, reloading interface list
+Jan 21 04:39:27 calvinserver systemd-udevd[89752]: vetheee151a: Failed to get link config: No such device
+Jan 21 04:39:27 calvinserver systemd[4154]: run-docker-netns-ced91f8152bf.mount: Succeeded.
+Jan 21 04:39:27 calvinserver systemd[1]: run-docker-netns-ced91f8152bf.mount: Succeeded.
+Jan 21 04:39:27 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 23 seen even after reload
+Jan 21 04:39:27 calvinserver systemd[4154]: var-lib-docker-overlay2-6fdc6aad873ad975a449cc7c6f3512df7a61e5bc6db28f1b169b859f25793875-merged.mount: Succeeded.
+Jan 21 04:39:27 calvinserver systemd[1]: var-lib-docker-overlay2-6fdc6aad873ad975a449cc7c6f3512df7a61e5bc6db28f1b169b859f25793875-merged.mount: Succeeded.
+Jan 21 04:39:54 calvinserver systemd[4154]: var-lib-docker-overlay2-e24fc11d91a5d9789367347e786d147bdb06fd9a1ff136e4747139aea5edc2fc\x2dinit-merged.mount: Succeeded.
+Jan 21 04:39:54 calvinserver systemd[1]: var-lib-docker-overlay2-e24fc11d91a5d9789367347e786d147bdb06fd9a1ff136e4747139aea5edc2fc\x2dinit-merged.mount: Succeeded.
+Jan 21 04:39:54 calvinserver systemd[4154]: var-lib-docker-overlay2-e24fc11d91a5d9789367347e786d147bdb06fd9a1ff136e4747139aea5edc2fc-merged.mount: Succeeded.
+Jan 21 04:39:54 calvinserver kernel: [63644.041952] docker0: port 2(veth4f73f5f) entered blocking state
+Jan 21 04:39:54 calvinserver kernel: [63644.041977] docker0: port 2(veth4f73f5f) entered disabled state
+Jan 21 04:39:54 calvinserver kernel: [63644.069715] device veth4f73f5f entered promiscuous mode
+Jan 21 04:39:54 calvinserver systemd-networkd[689]: veth4f73f5f: Link UP
+Jan 21 04:39:54 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 51 seen, reloading interface list
+Jan 21 04:39:54 calvinserver systemd-udevd[89799]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:39:54 calvinserver systemd-udevd[89799]: Using default interface naming scheme 'v245'.
+Jan 21 04:39:54 calvinserver systemd-udevd[89799]: vethef6bc45: Could not generate persistent MAC: No data available
+Jan 21 04:39:54 calvinserver systemd-udevd[89800]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 04:39:54 calvinserver systemd-udevd[89800]: Using default interface naming scheme 'v245'.
+Jan 21 04:39:54 calvinserver systemd-udevd[89800]: veth4f73f5f: Could not generate persistent MAC: No data available
+Jan 21 04:39:55 calvinserver containerd[738]: time="2024-01-21T04:39:55.058897600Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 04:39:55 calvinserver containerd[738]: time="2024-01-21T04:39:55.061541925Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 04:39:55 calvinserver containerd[738]: time="2024-01-21T04:39:55.061729128Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 04:39:55 calvinserver containerd[738]: time="2024-01-21T04:39:55.068215045Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/c8121086bff688fafa165926d736a165ede317c4c4efe8e24a7c6fde56c1d731 pid=89837 runtime=io.containerd.runc.v2
+Jan 21 04:39:56 calvinserver kernel: [63645.799634] eth0: renamed from vethef6bc45
+Jan 21 04:39:56 calvinserver kernel: [63645.836483] IPv6: ADDRCONF(NETDEV_CHANGE): veth4f73f5f: link becomes ready
+Jan 21 04:39:56 calvinserver kernel: [63645.836725] docker0: port 2(veth4f73f5f) entered blocking state
+Jan 21 04:39:56 calvinserver kernel: [63645.836737] docker0: port 2(veth4f73f5f) entered forwarding state
+Jan 21 04:39:56 calvinserver systemd-networkd[689]: veth4f73f5f: Gained carrier
+Jan 21 04:39:58 calvinserver systemd-networkd[689]: veth4f73f5f: Gained IPv6LL
+Jan 21 04:45:34 calvinserver kernel: [63983.911303] docker0: port 1(veth0dcff77) entered blocking state
+Jan 21 04:45:34 calvinserver kernel: [63983.911556] docker0: port 1(veth0dcff77) entered disabled state
+Jan 21 04:45:34 calvinserver kernel: [63983.913290] device veth0dcff77 entered promiscuous mode
+Jan 21 04:45:38 calvinserver kernel: [63988.176187] eth0: renamed from vethada4be4
+Jan 21 04:45:38 calvinserver kernel: [63988.202286] docker0: port 1(veth0dcff77) entered blocking state
+Jan 21 04:45:38 calvinserver kernel: [63988.202640] docker0: port 1(veth0dcff77) entered forwarding state
+Jan 21 04:45:46 calvinserver kernel: [63995.906772] docker0: port 1(veth0dcff77) entered disabled state
+Jan 21 04:45:46 calvinserver kernel: [63995.908033] vethada4be4: renamed from eth0
+Jan 21 04:45:46 calvinserver kernel: [63995.951457] docker0: port 1(veth0dcff77) entered disabled state
+Jan 21 04:45:46 calvinserver kernel: [63995.960753] device veth0dcff77 left promiscuous mode
+Jan 21 04:45:46 calvinserver kernel: [63995.960785] docker0: port 1(veth0dcff77) entered disabled state
+Jan 21 04:45:52 calvinserver kernel: [64002.482327] docker0: port 1(vethbe0dc64) entered blocking state
+Jan 21 04:45:52 calvinserver kernel: [64002.482362] docker0: port 1(vethbe0dc64) entered disabled state
+Jan 21 04:45:52 calvinserver kernel: [64002.482853] device vethbe0dc64 entered promiscuous mode
+Jan 21 04:45:54 calvinserver kernel: [64004.215011] eth0: renamed from veth10601a8
+Jan 21 04:45:54 calvinserver kernel: [64004.231565] docker0: port 1(vethbe0dc64) entered blocking state
+Jan 21 04:45:54 calvinserver kernel: [64004.231584] docker0: port 1(vethbe0dc64) entered forwarding state
+Jan 21 04:46:08 calvinserver kernel: [64018.286310] docker0: port 1(vethbe0dc64) entered disabled state
+Jan 21 04:46:08 calvinserver kernel: [64018.286757] veth10601a8: renamed from eth0
+Jan 21 04:46:08 calvinserver kernel: [64018.339796] docker0: port 1(vethbe0dc64) entered disabled state
+Jan 21 04:46:08 calvinserver kernel: [64018.348044] device vethbe0dc64 left promiscuous mode
+Jan 21 04:46:08 calvinserver kernel: [64018.348078] docker0: port 1(vethbe0dc64) entered disabled state
+Jan 21 04:50:22 calvinserver kernel: [64272.508738] docker0: port 1(veth69d2729) entered blocking state
+Jan 21 04:50:22 calvinserver kernel: [64272.508767] docker0: port 1(veth69d2729) entered disabled state
+Jan 21 04:50:22 calvinserver kernel: [64272.509469] device veth69d2729 entered promiscuous mode
+Jan 21 04:50:27 calvinserver kernel: [64277.491081] eth0: renamed from vetha1453e0
+Jan 21 04:50:27 calvinserver kernel: [64277.536056] docker0: port 1(veth69d2729) entered blocking state
+Jan 21 04:50:27 calvinserver kernel: [64277.536087] docker0: port 1(veth69d2729) entered forwarding state
+Jan 21 04:51:26 calvinserver kernel: [64336.192140] docker0: port 1(veth69d2729) entered disabled state
+Jan 21 04:51:26 calvinserver kernel: [64336.192612] vetha1453e0: renamed from eth0
+Jan 21 04:51:26 calvinserver kernel: [64336.251343] docker0: port 1(veth69d2729) entered disabled state
+Jan 21 04:51:26 calvinserver kernel: [64336.258892] device veth69d2729 left promiscuous mode
+Jan 21 04:51:26 calvinserver kernel: [64336.258916] docker0: port 1(veth69d2729) entered disabled state
+Jan 21 04:52:30 calvinserver kernel: [64399.779182] docker0: port 1(veth717de87) entered blocking state
+Jan 21 04:52:30 calvinserver kernel: [64399.779210] docker0: port 1(veth717de87) entered disabled state
+Jan 21 04:52:30 calvinserver kernel: [64399.779555] device veth717de87 entered promiscuous mode
+Jan 21 04:52:31 calvinserver kernel: [64401.080808] eth0: renamed from veth9a653eb
+Jan 21 04:52:31 calvinserver kernel: [64401.095783] docker0: port 1(veth717de87) entered blocking state
+Jan 21 04:52:31 calvinserver kernel: [64401.095804] docker0: port 1(veth717de87) entered forwarding state
+Jan 21 04:52:33 calvinserver kernel: [64403.288103] docker0: port 1(veth717de87) entered disabled state
+Jan 21 04:52:33 calvinserver kernel: [64403.288369] veth9a653eb: renamed from eth0
+Jan 21 04:52:33 calvinserver kernel: [64403.323332] docker0: port 1(veth717de87) entered disabled state
+Jan 21 04:52:33 calvinserver kernel: [64403.331347] device veth717de87 left promiscuous mode
+Jan 21 04:52:33 calvinserver kernel: [64403.331370] docker0: port 1(veth717de87) entered disabled state
+Jan 21 05:03:30 calvinserver dockerd[853]: time="2024-01-21T05:03:30.699634689Z" level=error msg="Not continuing with pull after error: errors:\ndenied: requested access to the resource is denied\nunauthorized: authentication required\n"
+Jan 21 05:03:30 calvinserver dockerd[853]: time="2024-01-21T05:03:30.704760637Z" level=info msg="Ignoring extra error returned from registry" error="unauthorized: authentication required"
+Jan 21 05:04:11 calvinserver dockerd[853]: time="2024-01-21T05:04:11.942920111Z" level=error msg="Not continuing with pull after error: errors:\ndenied: requested access to the resource is denied\nunauthorized: authentication required\n"
+Jan 21 05:04:11 calvinserver dockerd[853]: time="2024-01-21T05:04:11.944117226Z" level=info msg="Ignoring extra error returned from registry" error="unauthorized: authentication required"
+Jan 21 05:05:15 calvinserver dockerd[853]: time="2024-01-21T05:05:15.849951633Z" level=error msg="Not continuing with pull after error: errors:\ndenied: requested access to the resource is denied\nunauthorized: authentication required\n"
+Jan 21 05:05:15 calvinserver dockerd[853]: time="2024-01-21T05:05:15.851343749Z" level=info msg="Ignoring extra error returned from registry" error="unauthorized: authentication required"
+Jan 21 05:06:41 calvinserver dockerd[853]: time="2024-01-21T05:06:41.557871872Z" level=error msg="Not continuing with pull after error: errors:\ndenied: requested access to the resource is denied\nunauthorized: authentication required\n"
+Jan 21 05:06:41 calvinserver dockerd[853]: time="2024-01-21T05:06:41.559835860Z" level=info msg="Ignoring extra error returned from registry" error="unauthorized: authentication required"
+Jan 21 05:07:10 calvinserver systemd[1]: var-lib-docker-overlay2-6723fda67aeee7c0226bb4529c533c35a917ab15f9a47bfe6719a4d6829fa2f3-merged.mount: Succeeded.
+Jan 21 05:07:10 calvinserver systemd[4154]: var-lib-docker-overlay2-6723fda67aeee7c0226bb4529c533c35a917ab15f9a47bfe6719a4d6829fa2f3-merged.mount: Succeeded.
+Jan 21 05:07:11 calvinserver kernel: [65280.881746] docker0: port 3(veth328cd9d) entered blocking state
+Jan 21 05:07:11 calvinserver kernel: [65280.892152] docker0: port 3(veth328cd9d) entered disabled state
+Jan 21 05:07:11 calvinserver systemd-udevd[92639]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 05:07:11 calvinserver kernel: [65280.920163] device veth328cd9d entered promiscuous mode
+Jan 21 05:07:11 calvinserver systemd-udevd[92641]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 05:07:11 calvinserver systemd-udevd[92639]: Using default interface naming scheme 'v245'.
+Jan 21 05:07:11 calvinserver systemd-udevd[92639]: veth88ef0a9: Could not generate persistent MAC: No data available
+Jan 21 05:07:11 calvinserver systemd-udevd[92641]: Using default interface naming scheme 'v245'.
+Jan 21 05:07:11 calvinserver systemd-udevd[92641]: veth328cd9d: Could not generate persistent MAC: No data available
+Jan 21 05:07:11 calvinserver systemd-networkd[689]: veth328cd9d: Link UP
+Jan 21 05:07:11 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 53 seen, reloading interface list
+Jan 21 05:07:12 calvinserver containerd[738]: time="2024-01-21T05:07:12.787106201Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 05:07:12 calvinserver containerd[738]: time="2024-01-21T05:07:12.812015880Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 05:07:12 calvinserver containerd[738]: time="2024-01-21T05:07:12.812421808Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 05:07:12 calvinserver containerd[738]: time="2024-01-21T05:07:12.826604147Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/3790a5ab904d18964d055f3b2b86e366a3e3b67b34198dc2797b18d1ed6b8f1b pid=92679 runtime=io.containerd.runc.v2
+Jan 21 05:07:15 calvinserver kernel: [65284.758225] eth0: renamed from veth88ef0a9
+Jan 21 05:07:15 calvinserver kernel: [65284.793399] IPv6: ADDRCONF(NETDEV_CHANGE): veth328cd9d: link becomes ready
+Jan 21 05:07:15 calvinserver kernel: [65284.795149] docker0: port 3(veth328cd9d) entered blocking state
+Jan 21 05:07:15 calvinserver kernel: [65284.795160] docker0: port 3(veth328cd9d) entered forwarding state
+Jan 21 05:07:15 calvinserver systemd-networkd[689]: veth328cd9d: Gained carrier
+Jan 21 05:07:16 calvinserver systemd-networkd[689]: veth328cd9d: Gained IPv6LL
+Jan 21 05:09:01 calvinserver dockerd[853]: time="2024-01-21T05:09:01.634611235Z" level=info msg="ignoring event" container=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 05:09:01 calvinserver containerd[738]: time="2024-01-21T05:09:01.696669797Z" level=info msg="shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea
+Jan 21 05:09:01 calvinserver containerd[738]: time="2024-01-21T05:09:01.711706991Z" level=warning msg="cleaning up after shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea namespace=moby
+Jan 21 05:09:01 calvinserver containerd[738]: time="2024-01-21T05:09:01.712159015Z" level=info msg="cleaning up dead shim"
+Jan 21 05:09:02 calvinserver containerd[738]: time="2024-01-21T05:09:02.505856327Z" level=warning msg="cleanup warnings time=\"2024-01-21T05:09:02Z\" level=info msg=\"starting signal loop\" namespace=moby pid=92922 runtime=io.containerd.runc.v2\n"
+Jan 21 05:09:02 calvinserver kernel: [65392.675773] docker0: port 1(vethf7f2db2) entered disabled state
+Jan 21 05:09:02 calvinserver kernel: [65392.679414] veth3317ff4: renamed from eth0
+Jan 21 05:09:03 calvinserver systemd-networkd[689]: vethf7f2db2: Lost carrier
+Jan 21 05:09:03 calvinserver systemd-udevd[92919]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 05:09:03 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 49 seen, reloading interface list
+Jan 21 05:09:03 calvinserver systemd-udevd[92919]: Using default interface naming scheme 'v245'.
+Jan 21 05:09:03 calvinserver systemd-networkd[689]: vethf7f2db2: Link DOWN
+Jan 21 05:09:03 calvinserver kernel: [65393.020469] docker0: port 1(vethf7f2db2) entered disabled state
+Jan 21 05:09:03 calvinserver kernel: [65393.158074] device vethf7f2db2 left promiscuous mode
+Jan 21 05:09:03 calvinserver kernel: [65393.158159] docker0: port 1(vethf7f2db2) entered disabled state
+Jan 21 05:09:03 calvinserver systemd-udevd[92919]: veth3317ff4: Failed to get link config: No such device
+Jan 21 05:09:03 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '50' we don't know about, ignoring.
+Jan 21 05:09:03 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '50' we don't know about, ignoring.
+Jan 21 05:09:03 calvinserver systemd-networkd[689]: veth3317ff4: Failed to wait for the interface to be initialized: No such device
+Jan 21 05:09:03 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 49 seen even after reload
+Jan 21 05:09:03 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 49 seen, reloading interface list
+Jan 21 05:09:03 calvinserver systemd[4154]: run-docker-netns-261b5fc4e48d.mount: Succeeded.
+Jan 21 05:09:03 calvinserver systemd[1]: run-docker-netns-261b5fc4e48d.mount: Succeeded.
+Jan 21 05:09:03 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 49 seen even after reload
+Jan 21 05:09:03 calvinserver kernel: [65393.593195] docker0: port 1(veth80b146e) entered blocking state
+Jan 21 05:09:03 calvinserver kernel: [65393.593261] docker0: port 1(veth80b146e) entered disabled state
+Jan 21 05:09:03 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 55 seen, reloading interface list
+Jan 21 05:09:03 calvinserver kernel: [65393.604906] device veth80b146e entered promiscuous mode
+Jan 21 05:09:03 calvinserver kernel: [65393.656011] docker0: port 1(veth80b146e) entered blocking state
+Jan 21 05:09:03 calvinserver kernel: [65393.656047] docker0: port 1(veth80b146e) entered forwarding state
+Jan 21 05:09:04 calvinserver systemd-udevd[92919]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 05:09:04 calvinserver systemd-udevd[92919]: veth6068148: Could not generate persistent MAC: No data available
+Jan 21 05:09:04 calvinserver kernel: [65393.733992] docker0: port 1(veth80b146e) entered disabled state
+Jan 21 05:09:04 calvinserver systemd-networkd[689]: veth80b146e: Link UP
+Jan 21 05:09:04 calvinserver systemd-udevd[92935]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 05:09:04 calvinserver systemd-udevd[92935]: Using default interface naming scheme 'v245'.
+Jan 21 05:09:04 calvinserver systemd-udevd[92935]: veth80b146e: Could not generate persistent MAC: No data available
+Jan 21 05:09:04 calvinserver containerd[738]: time="2024-01-21T05:09:04.679431315Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 05:09:04 calvinserver containerd[738]: time="2024-01-21T05:09:04.682148486Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 05:09:04 calvinserver containerd[738]: time="2024-01-21T05:09:04.682288452Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 05:09:04 calvinserver containerd[738]: time="2024-01-21T05:09:04.694786713Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea pid=92996 runtime=io.containerd.runc.v2
+Jan 21 05:09:06 calvinserver kernel: [65395.753393] eth0: renamed from veth6068148
+Jan 21 05:09:06 calvinserver kernel: [65395.790207] IPv6: ADDRCONF(NETDEV_CHANGE): veth80b146e: link becomes ready
+Jan 21 05:09:06 calvinserver kernel: [65395.791562] docker0: port 1(veth80b146e) entered blocking state
+Jan 21 05:09:06 calvinserver kernel: [65395.791574] docker0: port 1(veth80b146e) entered forwarding state
+Jan 21 05:09:06 calvinserver systemd-networkd[689]: veth80b146e: Gained carrier
+Jan 21 05:09:07 calvinserver systemd-networkd[689]: veth80b146e: Gained IPv6LL
+Jan 21 05:10:40 calvinserver systemd[1]: run-docker-runtime\x2drunc-moby-e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea-runc.1lsRn0.mount: Succeeded.
+Jan 21 05:10:40 calvinserver systemd[4154]: run-docker-runtime\x2drunc-moby-e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea-runc.1lsRn0.mount: Succeeded.
+Jan 21 05:12:08 calvinserver systemd[1]: Started Session 38 of user calvin.
+Jan 21 05:12:52 calvinserver dockerd[853]: time="2024-01-21T05:12:52.816955643Z" level=info msg="ignoring event" container=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 05:12:52 calvinserver containerd[738]: time="2024-01-21T05:12:52.821644610Z" level=info msg="shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea
+Jan 21 05:12:52 calvinserver containerd[738]: time="2024-01-21T05:12:52.822228775Z" level=warning msg="cleaning up after shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea namespace=moby
+Jan 21 05:12:52 calvinserver containerd[738]: time="2024-01-21T05:12:52.822384664Z" level=info msg="cleaning up dead shim"
+Jan 21 05:12:53 calvinserver containerd[738]: time="2024-01-21T05:12:53.149886807Z" level=warning msg="cleanup warnings time=\"2024-01-21T05:12:52Z\" level=info msg=\"starting signal loop\" namespace=moby pid=93364 runtime=io.containerd.runc.v2\n"
+Jan 21 05:12:53 calvinserver kernel: [65622.980912] docker0: port 1(veth80b146e) entered disabled state
+Jan 21 05:12:53 calvinserver kernel: [65622.981386] veth6068148: renamed from eth0
+Jan 21 05:12:53 calvinserver systemd-networkd[689]: veth80b146e: Lost carrier
+Jan 21 05:12:53 calvinserver systemd-udevd[93377]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 05:12:53 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 55 seen, reloading interface list
+Jan 21 05:12:53 calvinserver systemd-udevd[93377]: Using default interface naming scheme 'v245'.
+Jan 21 05:12:53 calvinserver systemd-networkd[689]: veth80b146e: Link DOWN
+Jan 21 05:12:53 calvinserver kernel: [65623.150505] docker0: port 1(veth80b146e) entered disabled state
+Jan 21 05:12:53 calvinserver kernel: [65623.216453] device veth80b146e left promiscuous mode
+Jan 21 05:12:53 calvinserver kernel: [65623.216500] docker0: port 1(veth80b146e) entered disabled state
+Jan 21 05:12:53 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '56' we don't know about, ignoring.
+Jan 21 05:12:53 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '56' we don't know about, ignoring.
+Jan 21 05:12:53 calvinserver systemd-networkd[689]: veth6068148: Failed to wait for the interface to be initialized: No such device
+Jan 21 05:12:53 calvinserver systemd-udevd[93377]: veth6068148: Failed to get link config: No such device
+Jan 21 05:12:53 calvinserver systemd[1]: run-docker-netns-b79434cf3be6.mount: Succeeded.
+Jan 21 05:12:53 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 55 seen even after reload
+Jan 21 05:12:53 calvinserver systemd[4154]: run-docker-netns-b79434cf3be6.mount: Succeeded.
+Jan 21 05:12:53 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 55 seen, reloading interface list
+Jan 21 05:12:53 calvinserver kernel: [65623.531785] docker0: port 1(veth729343b) entered blocking state
+Jan 21 05:12:53 calvinserver kernel: [65623.531817] docker0: port 1(veth729343b) entered disabled state
+Jan 21 05:12:53 calvinserver kernel: [65623.532633] device veth729343b entered promiscuous mode
+Jan 21 05:12:53 calvinserver kernel: [65623.541527] docker0: port 1(veth729343b) entered blocking state
+Jan 21 05:12:53 calvinserver kernel: [65623.541550] docker0: port 1(veth729343b) entered forwarding state
+Jan 21 05:12:53 calvinserver systemd-udevd[93377]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 05:12:53 calvinserver systemd-udevd[93377]: vethfa230e3: Could not generate persistent MAC: No data available
+Jan 21 05:12:53 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 55 seen even after reload
+Jan 21 05:12:53 calvinserver systemd-udevd[93379]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 05:12:53 calvinserver systemd-udevd[93379]: Using default interface naming scheme 'v245'.
+Jan 21 05:12:53 calvinserver systemd-udevd[93379]: veth729343b: Could not generate persistent MAC: No data available
+Jan 21 05:12:54 calvinserver systemd-networkd[689]: veth729343b: Link UP
+Jan 21 05:12:54 calvinserver kernel: [65623.995805] docker0: port 1(veth729343b) entered disabled state
+Jan 21 05:12:54 calvinserver containerd[738]: time="2024-01-21T05:12:54.444600072Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 05:12:54 calvinserver containerd[738]: time="2024-01-21T05:12:54.445890208Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 05:12:54 calvinserver containerd[738]: time="2024-01-21T05:12:54.446005309Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 05:12:54 calvinserver containerd[738]: time="2024-01-21T05:12:54.449446324Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea pid=93433 runtime=io.containerd.runc.v2
+Jan 21 05:12:54 calvinserver systemd[4154]: run-docker-runtime\x2drunc-moby-e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea-runc.CfIEIq.mount: Succeeded.
+Jan 21 05:12:55 calvinserver kernel: [65625.291344] eth0: renamed from vethfa230e3
+Jan 21 05:12:55 calvinserver kernel: [65625.312016] IPv6: ADDRCONF(NETDEV_CHANGE): veth729343b: link becomes ready
+Jan 21 05:12:55 calvinserver kernel: [65625.312243] docker0: port 1(veth729343b) entered blocking state
+Jan 21 05:12:55 calvinserver kernel: [65625.312255] docker0: port 1(veth729343b) entered forwarding state
+Jan 21 05:12:55 calvinserver systemd-networkd[689]: veth729343b: Gained carrier
+Jan 21 05:12:56 calvinserver systemd-networkd[689]: veth729343b: Gained IPv6LL
+Jan 21 05:13:46 calvinserver dockerd[853]: time="2024-01-21T05:13:46.483660226Z" level=info msg="ignoring event" container=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 05:13:46 calvinserver containerd[738]: time="2024-01-21T05:13:46.490775529Z" level=info msg="shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea
+Jan 21 05:13:46 calvinserver containerd[738]: time="2024-01-21T05:13:46.491177544Z" level=warning msg="cleaning up after shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea namespace=moby
+Jan 21 05:13:46 calvinserver containerd[738]: time="2024-01-21T05:13:46.491275324Z" level=info msg="cleaning up dead shim"
+Jan 21 05:13:46 calvinserver containerd[738]: time="2024-01-21T05:13:46.690714726Z" level=warning msg="cleanup warnings time=\"2024-01-21T05:13:46Z\" level=info msg=\"starting signal loop\" namespace=moby pid=93594 runtime=io.containerd.runc.v2\n"
+Jan 21 05:13:47 calvinserver kernel: [65677.010961] docker0: port 1(veth729343b) entered disabled state
+Jan 21 05:13:47 calvinserver kernel: [65677.028680] vethfa230e3: renamed from eth0
+Jan 21 05:13:47 calvinserver systemd-networkd[689]: veth729343b: Lost carrier
+Jan 21 05:13:47 calvinserver systemd-udevd[93608]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 05:13:47 calvinserver systemd-udevd[93608]: Using default interface naming scheme 'v245'.
+Jan 21 05:13:47 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 57 seen, reloading interface list
+Jan 21 05:13:47 calvinserver systemd-networkd[689]: veth729343b: Link DOWN
+Jan 21 05:13:47 calvinserver kernel: [65677.306655] docker0: port 1(veth729343b) entered disabled state
+Jan 21 05:13:47 calvinserver kernel: [65677.389187] device veth729343b left promiscuous mode
+Jan 21 05:13:47 calvinserver kernel: [65677.389233] docker0: port 1(veth729343b) entered disabled state
+Jan 21 05:13:47 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '58' we don't know about, ignoring.
+Jan 21 05:13:47 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '58' we don't know about, ignoring.
+Jan 21 05:13:47 calvinserver systemd-udevd[93608]: vethfa230e3: Failed to get link config: No such device
+Jan 21 05:13:47 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 57 seen even after reload
+Jan 21 05:13:47 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 57 seen, reloading interface list
+Jan 21 05:13:47 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 57 seen even after reload
+Jan 21 05:13:48 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 57 seen, reloading interface list
+Jan 21 05:13:48 calvinserver systemd[4154]: run-docker-netns-66c4eba92299.mount: Succeeded.
+Jan 21 05:13:48 calvinserver systemd[1]: run-docker-netns-66c4eba92299.mount: Succeeded.
+Jan 21 05:13:48 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 57 seen even after reload
+Jan 21 05:13:48 calvinserver kernel: [65677.930896] docker0: port 1(veth3c0c0c6) entered blocking state
+Jan 21 05:13:48 calvinserver kernel: [65677.930922] docker0: port 1(veth3c0c0c6) entered disabled state
+Jan 21 05:13:48 calvinserver kernel: [65677.931780] device veth3c0c0c6 entered promiscuous mode
+Jan 21 05:13:48 calvinserver kernel: [65677.933080] docker0: port 1(veth3c0c0c6) entered blocking state
+Jan 21 05:13:48 calvinserver kernel: [65677.933092] docker0: port 1(veth3c0c0c6) entered forwarding state
+Jan 21 05:13:48 calvinserver kernel: [65678.026531] docker0: port 1(veth3c0c0c6) entered disabled state
+Jan 21 05:13:48 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 59 seen, reloading interface list
+Jan 21 05:13:48 calvinserver systemd-networkd[689]: veth3c0c0c6: Link UP
+Jan 21 05:13:48 calvinserver systemd-udevd[93607]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 05:13:48 calvinserver systemd-udevd[93607]: Using default interface naming scheme 'v245'.
+Jan 21 05:13:48 calvinserver systemd-udevd[93608]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 05:13:48 calvinserver systemd-udevd[93608]: vethbfbf84d: Could not generate persistent MAC: No data available
+Jan 21 05:13:48 calvinserver systemd-udevd[93607]: veth3c0c0c6: Could not generate persistent MAC: No data available
+Jan 21 05:13:49 calvinserver containerd[738]: time="2024-01-21T05:13:49.345135531Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 05:13:49 calvinserver containerd[738]: time="2024-01-21T05:13:49.355695758Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 05:13:49 calvinserver containerd[738]: time="2024-01-21T05:13:49.362673890Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 05:13:49 calvinserver containerd[738]: time="2024-01-21T05:13:49.380746406Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea pid=93669 runtime=io.containerd.runc.v2
+Jan 21 05:13:49 calvinserver systemd[1]: run-docker-runtime\x2drunc-moby-e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea-runc.XXeQZr.mount: Succeeded.
+Jan 21 05:13:49 calvinserver systemd[4154]: run-docker-runtime\x2drunc-moby-e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea-runc.XXeQZr.mount: Succeeded.
+Jan 21 05:13:52 calvinserver kernel: [65681.923554] eth0: renamed from vethbfbf84d
+Jan 21 05:13:52 calvinserver kernel: [65681.997335] IPv6: ADDRCONF(NETDEV_CHANGE): veth3c0c0c6: link becomes ready
+Jan 21 05:13:52 calvinserver kernel: [65681.997621] docker0: port 1(veth3c0c0c6) entered blocking state
+Jan 21 05:13:52 calvinserver kernel: [65681.997654] docker0: port 1(veth3c0c0c6) entered forwarding state
+Jan 21 05:13:52 calvinserver systemd-networkd[689]: veth3c0c0c6: Gained carrier
+Jan 21 05:13:53 calvinserver systemd-networkd[689]: veth3c0c0c6: Gained IPv6LL
+Jan 21 05:16:32 calvinserver kernel: [65842.484366] docker0: port 1(vethb1b17bf) entered blocking state
+Jan 21 05:16:32 calvinserver kernel: [65842.484701] docker0: port 1(vethb1b17bf) entered disabled state
+Jan 21 05:16:32 calvinserver kernel: [65842.485510] device vethb1b17bf entered promiscuous mode
+Jan 21 05:16:37 calvinserver kernel: [65847.035389] eth0: renamed from veth4705797
+Jan 21 05:16:37 calvinserver kernel: [65847.100813] docker0: port 1(vethb1b17bf) entered blocking state
+Jan 21 05:16:37 calvinserver kernel: [65847.100950] docker0: port 1(vethb1b17bf) entered forwarding state
+Jan 21 05:16:49 calvinserver kernel: [65859.136026] docker0: port 1(vethb1b17bf) entered disabled state
+Jan 21 05:16:49 calvinserver kernel: [65859.136579] veth4705797: renamed from eth0
+Jan 21 05:16:49 calvinserver kernel: [65859.199742] docker0: port 1(vethb1b17bf) entered disabled state
+Jan 21 05:16:49 calvinserver kernel: [65859.207984] device vethb1b17bf left promiscuous mode
+Jan 21 05:16:49 calvinserver kernel: [65859.208062] docker0: port 1(vethb1b17bf) entered disabled state
+Jan 21 05:16:57 calvinserver kernel: [65867.665513] docker0: port 1(vethfb6c5a8) entered blocking state
+Jan 21 05:16:57 calvinserver kernel: [65867.665541] docker0: port 1(vethfb6c5a8) entered disabled state
+Jan 21 05:16:57 calvinserver kernel: [65867.667326] device vethfb6c5a8 entered promiscuous mode
+Jan 21 05:17:00 calvinserver kernel: [65869.795469] eth0: renamed from veth8426186
+Jan 21 05:17:00 calvinserver kernel: [65869.816723] docker0: port 1(vethfb6c5a8) entered blocking state
+Jan 21 05:17:00 calvinserver kernel: [65869.816743] docker0: port 1(vethfb6c5a8) entered forwarding state
+Jan 21 05:17:02 calvinserver CRON[94360]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 21 05:17:14 calvinserver kernel: [65884.647251] docker0: port 1(vethfb6c5a8) entered disabled state
+Jan 21 05:17:14 calvinserver kernel: [65884.647581] veth8426186: renamed from eth0
+Jan 21 05:17:15 calvinserver kernel: [65884.690636] docker0: port 1(vethfb6c5a8) entered disabled state
+Jan 21 05:17:15 calvinserver kernel: [65884.698713] device vethfb6c5a8 left promiscuous mode
+Jan 21 05:17:15 calvinserver kernel: [65884.698736] docker0: port 1(vethfb6c5a8) entered disabled state
+Jan 21 05:18:29 calvinserver dockerd[853]: time="2024-01-21T05:18:29.727843147Z" level=info msg="ignoring event" container=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 05:18:29 calvinserver containerd[738]: time="2024-01-21T05:18:29.753255818Z" level=info msg="shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea
+Jan 21 05:18:29 calvinserver containerd[738]: time="2024-01-21T05:18:29.768368932Z" level=warning msg="cleaning up after shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea namespace=moby
+Jan 21 05:18:29 calvinserver containerd[738]: time="2024-01-21T05:18:29.768685180Z" level=info msg="cleaning up dead shim"
+Jan 21 05:18:30 calvinserver containerd[738]: time="2024-01-21T05:18:30.116394070Z" level=warning msg="cleanup warnings time=\"2024-01-21T05:18:30Z\" level=info msg=\"starting signal loop\" namespace=moby pid=94550 runtime=io.containerd.runc.v2\n"
+Jan 21 05:18:30 calvinserver kernel: [65960.011133] docker0: port 1(veth3c0c0c6) entered disabled state
+Jan 21 05:18:30 calvinserver kernel: [65960.015503] vethbfbf84d: renamed from eth0
+Jan 21 05:18:30 calvinserver systemd-networkd[689]: veth3c0c0c6: Lost carrier
+Jan 21 05:18:30 calvinserver systemd-udevd[94551]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 05:18:30 calvinserver systemd-udevd[94551]: Using default interface naming scheme 'v245'.
+Jan 21 05:18:30 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 59 seen, reloading interface list
+Jan 21 05:18:30 calvinserver kernel: [65960.255682] docker0: port 1(veth3c0c0c6) entered disabled state
+Jan 21 05:18:30 calvinserver systemd-networkd[689]: veth3c0c0c6: Link DOWN
+Jan 21 05:18:30 calvinserver kernel: [65960.332823] device veth3c0c0c6 left promiscuous mode
+Jan 21 05:18:30 calvinserver kernel: [65960.332863] docker0: port 1(veth3c0c0c6) entered disabled state
+Jan 21 05:18:30 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '60' we don't know about, ignoring.
+Jan 21 05:18:30 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '60' we don't know about, ignoring.
+Jan 21 05:18:30 calvinserver systemd-udevd[94551]: vethbfbf84d: Failed to get link config: No such device
+Jan 21 05:18:30 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 59 seen even after reload
+Jan 21 05:18:30 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 59 seen, reloading interface list
+Jan 21 05:18:30 calvinserver networkd-dispatcher[718]: ERROR:Unknown interface index 59 seen even after reload
+Jan 21 05:18:30 calvinserver systemd[1]: run-docker-netns-5c88137dd381.mount: Succeeded.
+Jan 21 05:18:30 calvinserver systemd[4154]: run-docker-netns-5c88137dd381.mount: Succeeded.
+Jan 21 05:18:31 calvinserver kernel: [65960.743984] docker0: port 1(vethcca5dcc) entered blocking state
+Jan 21 05:18:31 calvinserver kernel: [65960.744003] docker0: port 1(vethcca5dcc) entered disabled state
+Jan 21 05:18:31 calvinserver kernel: [65960.745173] device vethcca5dcc entered promiscuous mode
+Jan 21 05:18:31 calvinserver kernel: [65960.749627] docker0: port 1(vethcca5dcc) entered blocking state
+Jan 21 05:18:31 calvinserver kernel: [65960.749641] docker0: port 1(vethcca5dcc) entered forwarding state
+Jan 21 05:18:31 calvinserver systemd-udevd[94551]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 05:18:31 calvinserver systemd-udevd[94551]: veth9573b94: Could not generate persistent MAC: No data available
+Jan 21 05:18:31 calvinserver systemd-networkd[689]: vethcca5dcc: Link UP
+Jan 21 05:18:31 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 61 seen, reloading interface list
+Jan 21 05:18:31 calvinserver systemd-udevd[94559]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 05:18:31 calvinserver systemd-udevd[94559]: Using default interface naming scheme 'v245'.
+Jan 21 05:18:31 calvinserver systemd-udevd[94559]: vethcca5dcc: Could not generate persistent MAC: No data available
+Jan 21 05:18:31 calvinserver kernel: [65961.029601] docker0: port 1(vethcca5dcc) entered disabled state
+Jan 21 05:18:31 calvinserver containerd[738]: time="2024-01-21T05:18:31.758756512Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 05:18:31 calvinserver containerd[738]: time="2024-01-21T05:18:31.784794973Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 05:18:31 calvinserver containerd[738]: time="2024-01-21T05:18:31.785100884Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 05:18:31 calvinserver containerd[738]: time="2024-01-21T05:18:31.826815669Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea pid=94617 runtime=io.containerd.runc.v2
+Jan 21 05:18:33 calvinserver kernel: [65962.800574] eth0: renamed from veth9573b94
+Jan 21 05:18:33 calvinserver kernel: [65962.841738] IPv6: ADDRCONF(NETDEV_CHANGE): vethcca5dcc: link becomes ready
+Jan 21 05:18:33 calvinserver kernel: [65962.842971] docker0: port 1(vethcca5dcc) entered blocking state
+Jan 21 05:18:33 calvinserver kernel: [65962.842983] docker0: port 1(vethcca5dcc) entered forwarding state
+Jan 21 05:18:33 calvinserver systemd-networkd[689]: vethcca5dcc: Gained carrier
+Jan 21 05:18:34 calvinserver systemd-networkd[689]: vethcca5dcc: Gained IPv6LL
+Jan 21 05:19:40 calvinserver kernel: [66029.805357] docker0: port 1(vethbc7e4d7) entered blocking state
+Jan 21 05:19:40 calvinserver kernel: [66029.805382] docker0: port 1(vethbc7e4d7) entered disabled state
+Jan 21 05:19:40 calvinserver kernel: [66029.814501] device vethbc7e4d7 entered promiscuous mode
+Jan 21 05:19:41 calvinserver kernel: [66031.155491] eth0: renamed from veth5ea721e
+Jan 21 05:19:41 calvinserver kernel: [66031.175530] docker0: port 1(vethbc7e4d7) entered blocking state
+Jan 21 05:19:41 calvinserver kernel: [66031.175556] docker0: port 1(vethbc7e4d7) entered forwarding state
+Jan 21 05:20:40 calvinserver kernel: [66090.227801] docker0: port 1(vethbc7e4d7) entered disabled state
+Jan 21 05:20:40 calvinserver kernel: [66090.228334] veth5ea721e: renamed from eth0
+Jan 21 05:20:40 calvinserver kernel: [66090.274340] docker0: port 1(vethbc7e4d7) entered disabled state
+Jan 21 05:20:40 calvinserver kernel: [66090.281369] device vethbc7e4d7 left promiscuous mode
+Jan 21 05:20:40 calvinserver kernel: [66090.281390] docker0: port 1(vethbc7e4d7) entered disabled state
+Jan 21 05:21:42 calvinserver kernel: [66152.649223] docker0: port 1(veth1265796) entered blocking state
+Jan 21 05:21:42 calvinserver kernel: [66152.649260] docker0: port 1(veth1265796) entered disabled state
+Jan 21 05:21:42 calvinserver kernel: [66152.650400] device veth1265796 entered promiscuous mode
+Jan 21 05:21:45 calvinserver kernel: [66155.233401] eth0: renamed from veth2788e15
+Jan 21 05:21:45 calvinserver kernel: [66155.285835] docker0: port 1(veth1265796) entered blocking state
+Jan 21 05:21:45 calvinserver kernel: [66155.286445] docker0: port 1(veth1265796) entered forwarding state
+Jan 21 05:21:48 calvinserver kernel: [66158.564615] docker0: port 1(veth1265796) entered disabled state
+Jan 21 05:21:48 calvinserver kernel: [66158.564938] veth2788e15: renamed from eth0
+Jan 21 05:21:48 calvinserver kernel: [66158.607613] docker0: port 1(veth1265796) entered disabled state
+Jan 21 05:21:48 calvinserver kernel: [66158.612119] device veth1265796 left promiscuous mode
+Jan 21 05:21:48 calvinserver kernel: [66158.612138] docker0: port 1(veth1265796) entered disabled state
+Jan 21 05:23:23 calvinserver containerd[738]: time="2024-01-21T05:23:23.466793482Z" level=info msg="shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea
+Jan 21 05:23:23 calvinserver containerd[738]: time="2024-01-21T05:23:23.468291466Z" level=warning msg="cleaning up after shim disconnected" id=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea namespace=moby
+Jan 21 05:23:23 calvinserver containerd[738]: time="2024-01-21T05:23:23.468383379Z" level=info msg="cleaning up dead shim"
+Jan 21 05:23:23 calvinserver dockerd[853]: time="2024-01-21T05:23:23.460666331Z" level=info msg="ignoring event" container=e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 05:23:24 calvinserver containerd[738]: time="2024-01-21T05:23:24.055278497Z" level=warning msg="cleanup warnings time=\"2024-01-21T05:23:23Z\" level=info msg=\"starting signal loop\" namespace=moby pid=95987 runtime=io.containerd.runc.v2\ntime=\"2024-01-21T05:23:24Z\" level=warning msg=\"failed to remove runc container\" error=\"runc did not terminate successfully: exit status 255: \" runtime=io.containerd.runc.v2\n"
+Jan 21 05:23:24 calvinserver kernel: [66254.060657] docker0: port 1(vethcca5dcc) entered disabled state
+Jan 21 05:23:24 calvinserver kernel: [66254.061125] veth9573b94: renamed from eth0
+Jan 21 05:23:24 calvinserver systemd-networkd[689]: vethcca5dcc: Lost carrier
+Jan 21 05:23:24 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 61 seen, reloading interface list
+Jan 21 05:23:24 calvinserver systemd-udevd[95996]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 05:23:24 calvinserver systemd-udevd[95996]: Using default interface naming scheme 'v245'.
+Jan 21 05:23:24 calvinserver kernel: [66254.262387] docker0: port 1(vethcca5dcc) entered disabled state
+Jan 21 05:23:24 calvinserver systemd-networkd[689]: vethcca5dcc: Link DOWN
+Jan 21 05:23:24 calvinserver kernel: [66254.312548] device vethcca5dcc left promiscuous mode
+Jan 21 05:23:24 calvinserver kernel: [66254.312591] docker0: port 1(vethcca5dcc) entered disabled state
+Jan 21 05:23:24 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '62' we don't know about, ignoring.
+Jan 21 05:23:24 calvinserver systemd-networkd[689]: rtnl: received neighbor for link '62' we don't know about, ignoring.
+Jan 21 05:23:24 calvinserver systemd-udevd[95996]: veth9573b94: Failed to get link config: No such device
+Jan 21 05:23:24 calvinserver systemd[4154]: run-docker-netns-043c0d60df7c.mount: Succeeded.
+Jan 21 05:23:24 calvinserver systemd[1]: run-docker-netns-043c0d60df7c.mount: Succeeded.
+Jan 21 05:23:24 calvinserver kernel: [66254.620578] docker0: port 1(veth38cd9de) entered blocking state
+Jan 21 05:23:24 calvinserver kernel: [66254.620598] docker0: port 1(veth38cd9de) entered disabled state
+Jan 21 05:23:24 calvinserver kernel: [66254.621440] device veth38cd9de entered promiscuous mode
+Jan 21 05:23:24 calvinserver kernel: [66254.621459] docker0: port 1(veth38cd9de) entered blocking state
+Jan 21 05:23:24 calvinserver kernel: [66254.621459] docker0: port 1(veth38cd9de) entered forwarding state
+Jan 21 05:23:24 calvinserver systemd-udevd[95996]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 05:23:24 calvinserver networkd-dispatcher[718]: WARNING:Unknown index 63 seen, reloading interface list
+Jan 21 05:23:24 calvinserver systemd-udevd[95996]: vethaf3a25a: Could not generate persistent MAC: No data available
+Jan 21 05:23:24 calvinserver systemd-networkd[689]: veth38cd9de: Link UP
+Jan 21 05:23:25 calvinserver systemd-udevd[95994]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 05:23:25 calvinserver systemd-udevd[95994]: Using default interface naming scheme 'v245'.
+Jan 21 05:23:25 calvinserver systemd-udevd[95994]: veth38cd9de: Could not generate persistent MAC: No data available
+Jan 21 05:23:25 calvinserver kernel: [66255.065352] docker0: port 1(veth38cd9de) entered disabled state
+Jan 21 05:23:25 calvinserver containerd[738]: time="2024-01-21T05:23:25.562913801Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jan 21 05:23:25 calvinserver containerd[738]: time="2024-01-21T05:23:25.563694641Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jan 21 05:23:25 calvinserver containerd[738]: time="2024-01-21T05:23:25.565107696Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jan 21 05:23:25 calvinserver containerd[738]: time="2024-01-21T05:23:25.568455950Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea pid=96059 runtime=io.containerd.runc.v2
+Jan 21 05:23:25 calvinserver systemd[4154]: run-docker-runtime\x2drunc-moby-e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea-runc.OCadmY.mount: Succeeded.
+Jan 21 05:23:25 calvinserver systemd[1]: run-docker-runtime\x2drunc-moby-e01dffdfe1786b06569c4055464c48e41c9bc7849b9f8093b33c531af85822ea-runc.OCadmY.mount: Succeeded.
+Jan 21 05:23:26 calvinserver kernel: [66256.445319] eth0: renamed from vethaf3a25a
+Jan 21 05:23:26 calvinserver kernel: [66256.499162] IPv6: ADDRCONF(NETDEV_CHANGE): veth38cd9de: link becomes ready
+Jan 21 05:23:26 calvinserver kernel: [66256.502317] docker0: port 1(veth38cd9de) entered blocking state
+Jan 21 05:23:26 calvinserver kernel: [66256.502331] docker0: port 1(veth38cd9de) entered forwarding state
+Jan 21 05:23:26 calvinserver systemd-networkd[689]: veth38cd9de: Gained carrier
+Jan 21 05:23:28 calvinserver systemd-networkd[689]: veth38cd9de: Gained IPv6LL
+Jan 21 05:32:01 calvinserver kernel: [66771.294411] docker0: port 1(veth746e4e0) entered blocking state
+Jan 21 05:32:01 calvinserver kernel: [66771.294797] docker0: port 1(veth746e4e0) entered disabled state
+Jan 21 05:32:01 calvinserver kernel: [66771.300994] device veth746e4e0 entered promiscuous mode
+Jan 21 05:32:03 calvinserver kernel: [66773.554991] eth0: renamed from veth18e0279
+Jan 21 05:32:03 calvinserver kernel: [66773.579071] docker0: port 1(veth746e4e0) entered blocking state
+Jan 21 05:32:03 calvinserver kernel: [66773.579145] docker0: port 1(veth746e4e0) entered forwarding state
+Jan 21 05:32:13 calvinserver kernel: [66783.446528] docker0: port 1(veth746e4e0) entered disabled state
+Jan 21 05:32:13 calvinserver kernel: [66783.449530] veth18e0279: renamed from eth0
+Jan 21 05:32:14 calvinserver kernel: [66783.710509] docker0: port 1(veth746e4e0) entered disabled state
+Jan 21 05:32:14 calvinserver kernel: [66783.752316] device veth746e4e0 left promiscuous mode
+Jan 21 05:32:14 calvinserver kernel: [66783.752381] docker0: port 1(veth746e4e0) entered disabled state
+Jan 21 05:32:22 calvinserver kernel: [66792.672593] docker0: port 1(veth8768501) entered blocking state
+Jan 21 05:32:22 calvinserver kernel: [66792.672624] docker0: port 1(veth8768501) entered disabled state
+Jan 21 05:32:22 calvinserver kernel: [66792.673341] device veth8768501 entered promiscuous mode
+Jan 21 05:32:25 calvinserver kernel: [66794.979802] eth0: renamed from veth6e3f217
+Jan 21 05:32:25 calvinserver kernel: [66795.003788] docker0: port 1(veth8768501) entered blocking state
+Jan 21 05:32:25 calvinserver kernel: [66795.003805] docker0: port 1(veth8768501) entered forwarding state
+Jan 21 05:32:35 calvinserver kernel: [66805.655506] docker0: port 1(veth8768501) entered disabled state
+Jan 21 05:32:35 calvinserver kernel: [66805.656569] veth6e3f217: renamed from eth0
+Jan 21 05:32:36 calvinserver kernel: [66805.731573] docker0: port 1(veth8768501) entered disabled state
+Jan 21 05:32:36 calvinserver kernel: [66805.754392] device veth8768501 left promiscuous mode
+Jan 21 05:32:36 calvinserver kernel: [66805.754424] docker0: port 1(veth8768501) entered disabled state
+Jan 21 05:33:11 calvinserver systemd[4154]: Started snap.ngrok.ngrok-78fa3c79-816c-4c4f-80b5-03883b17e8e8.scope.
+Jan 21 05:33:13 calvinserver systemd[4154]: snap.ngrok.ngrok-78fa3c79-816c-4c4f-80b5-03883b17e8e8.scope: Succeeded.
+Jan 21 05:35:31 calvinserver systemd[4154]: Started snap.ngrok.ngrok-43110679-3d9f-42a7-834c-7741219905b4.scope.
+Jan 21 05:35:31 calvinserver systemd[4154]: snap.ngrok.ngrok-43110679-3d9f-42a7-834c-7741219905b4.scope: Succeeded.
+Jan 21 05:43:11 calvinserver systemd[1]: Reloading.
+Jan 21 05:45:05 calvinserver kernel: [67555.653761] docker0: port 1(veth56f8bb0) entered blocking state
+Jan 21 05:45:05 calvinserver kernel: [67555.659053] docker0: port 1(veth56f8bb0) entered disabled state
+Jan 21 05:45:05 calvinserver kernel: [67555.662115] device veth56f8bb0 entered promiscuous mode
+Jan 21 05:45:17 calvinserver kernel: [67567.460008] eth0: renamed from vethd75b3d9
+Jan 21 05:45:17 calvinserver kernel: [67567.542937] docker0: port 1(veth56f8bb0) entered blocking state
+Jan 21 05:45:17 calvinserver kernel: [67567.543012] docker0: port 1(veth56f8bb0) entered forwarding state
+Jan 21 05:43:34 calvinserver systemd[1]: message repeated 2 times: [ Reloading.]
+Jan 21 05:46:39 calvinserver dbus-daemon[709]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.229' (uid=0 pid=108695 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Jan 21 05:46:39 calvinserver systemd[1]: Starting PackageKit Daemon...
+Jan 21 05:46:40 calvinserver PackageKit: daemon start
+Jan 21 05:46:41 calvinserver dbus-daemon[709]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jan 21 05:46:42 calvinserver systemd[1]: Started PackageKit Daemon.
+Jan 21 05:47:19 calvinserver kernel: [67688.766458] docker0: port 1(veth56f8bb0) entered disabled state
+Jan 21 05:47:19 calvinserver kernel: [67688.772840] vethd75b3d9: renamed from eth0
+Jan 21 05:47:19 calvinserver kernel: [67688.906914] docker0: port 1(veth56f8bb0) entered disabled state
+Jan 21 05:47:19 calvinserver kernel: [67688.932496] device veth56f8bb0 left promiscuous mode
+Jan 21 05:47:19 calvinserver kernel: [67688.932593] docker0: port 1(veth56f8bb0) entered disabled state
+Jan 21 05:48:23 calvinserver kernel: [67753.218201] docker0: port 1(veth8d666b8) entered blocking state
+Jan 21 05:48:23 calvinserver kernel: [67753.218272] docker0: port 1(veth8d666b8) entered disabled state
+Jan 21 05:48:23 calvinserver kernel: [67753.219634] device veth8d666b8 entered promiscuous mode
+Jan 21 05:48:28 calvinserver kernel: [67757.759840] eth0: renamed from veth441552b
+Jan 21 05:48:28 calvinserver kernel: [67757.787141] docker0: port 1(veth8d666b8) entered blocking state
+Jan 21 05:48:28 calvinserver kernel: [67757.787210] docker0: port 1(veth8d666b8) entered forwarding state
+Jan 21 05:48:32 calvinserver kernel: [67762.380593] docker0: port 1(veth8d666b8) entered disabled state
+Jan 21 05:48:32 calvinserver kernel: [67762.380847] veth441552b: renamed from eth0
+Jan 21 05:48:32 calvinserver kernel: [67762.467848] docker0: port 1(veth8d666b8) entered disabled state
+Jan 21 05:48:32 calvinserver kernel: [67762.510944] device veth8d666b8 left promiscuous mode
+Jan 21 05:48:32 calvinserver kernel: [67762.510989] docker0: port 1(veth8d666b8) entered disabled state
+Jan 21 05:51:47 calvinserver PackageKit: daemon quit
+Jan 21 05:51:47 calvinserver systemd[1]: packagekit.service: Succeeded.
+Jan 21 06:09:48 calvinserver systemd[1]: Starting Daily apt upgrade and clean activities...
+Jan 21 06:10:21 calvinserver systemd[1]: apt-daily-upgrade.service: Succeeded.
+Jan 21 06:10:21 calvinserver systemd[1]: Finished Daily apt upgrade and clean activities.
+Jan 21 06:11:58 calvinserver systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+Jan 21 06:12:08 calvinserver systemd[1]: ua-timer.service: Succeeded.
+Jan 21 06:12:08 calvinserver systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+Jan 21 06:17:01 calvinserver CRON[111593]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 21 06:25:01 calvinserver CRON[111921]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jan 21 06:30:38 calvinserver systemd[4154]: Started snap.ngrok.ngrok-1a506b51-37cb-49f2-930a-dc8b844d341c.scope.
+Jan 21 06:30:39 calvinserver systemd[4154]: snap.ngrok.ngrok-1a506b51-37cb-49f2-930a-dc8b844d341c.scope: Succeeded.
+Jan 21 06:39:11 calvinserver systemd[4154]: Started snap.ngrok.ngrok-400f2018-4691-41ad-887c-bb539a846b48.scope.
+Jan 21 06:39:12 calvinserver systemd[4154]: snap.ngrok.ngrok-400f2018-4691-41ad-887c-bb539a846b48.scope: Succeeded.
+Jan 21 06:39:45 calvinserver systemd[4154]: Started snap.ngrok.ngrok-81c118b6-1dce-4b3c-bde3-751a40618c94.scope.
+Jan 21 06:39:45 calvinserver systemd[4154]: snap.ngrok.ngrok-81c118b6-1dce-4b3c-bde3-751a40618c94.scope: Succeeded.
+Jan 21 06:39:51 calvinserver systemd[4154]: Started snap.ngrok.ngrok-cea3ae54-cd06-4015-adba-84d2cd0d62be.scope.
+Jan 21 06:39:52 calvinserver systemd[4154]: snap.ngrok.ngrok-cea3ae54-cd06-4015-adba-84d2cd0d62be.scope: Succeeded.
+Jan 21 06:39:54 calvinserver systemd[4154]: Started snap.ngrok.ngrok-f09c3026-9a4a-4486-8778-b451b0147a9d.scope.
+Jan 21 06:39:55 calvinserver systemd[4154]: snap.ngrok.ngrok-f09c3026-9a4a-4486-8778-b451b0147a9d.scope: Succeeded.
+Jan 21 06:40:02 calvinserver systemd[4154]: Started snap.ngrok.ngrok-f952ec54-ddc8-4a3b-96e7-1b50c0dc3ddb.scope.
+Jan 21 06:40:03 calvinserver systemd[4154]: snap.ngrok.ngrok-f952ec54-ddc8-4a3b-96e7-1b50c0dc3ddb.scope: Succeeded.
+Jan 21 06:40:31 calvinserver systemd[4154]: Started snap.ngrok.ngrok-0750af22-f407-4327-a910-2477abb2228c.scope.
+Jan 21 06:40:32 calvinserver systemd[4154]: snap.ngrok.ngrok-0750af22-f407-4327-a910-2477abb2228c.scope: Succeeded.
+Jan 21 06:40:48 calvinserver systemd[4154]: Started snap.ngrok.ngrok-5879df05-b66f-4810-a87b-dbd9aa8a7d51.scope.
+Jan 21 06:40:48 calvinserver systemd[4154]: snap.ngrok.ngrok-5879df05-b66f-4810-a87b-dbd9aa8a7d51.scope: Succeeded.
+Jan 21 06:41:19 calvinserver systemd[4154]: Started snap.ngrok.ngrok-e80dab7d-7027-4392-ad06-d7d35cca8a39.scope.
+Jan 21 06:41:19 calvinserver systemd[4154]: snap.ngrok.ngrok-e80dab7d-7027-4392-ad06-d7d35cca8a39.scope: Succeeded.
+Jan 21 06:41:20 calvinserver systemd[4154]: Started snap.ngrok.ngrok-7f2436d5-7669-4d6a-8d26-df41fb959c62.scope.
+Jan 21 06:41:21 calvinserver systemd[4154]: snap.ngrok.ngrok-7f2436d5-7669-4d6a-8d26-df41fb959c62.scope: Succeeded.
+Jan 21 06:41:33 calvinserver systemd[1]: session-33.scope: Succeeded.
+Jan 21 06:41:33 calvinserver systemd[4154]: snap.ngrok.ngrok-f9792572-b838-4f9e-81bf-4c611d8ca862.scope: Succeeded.
+Jan 21 06:41:34 calvinserver systemd[4154]: Started snap.ngrok.ngrok-bfda8dc3-3c26-42cb-ac0d-6f6adff428c6.scope.
+Jan 21 06:41:35 calvinserver systemd[4154]: snap.ngrok.ngrok-bfda8dc3-3c26-42cb-ac0d-6f6adff428c6.scope: Succeeded.
+Jan 21 06:41:37 calvinserver systemd[1]: session-28.scope: Succeeded.
+Jan 21 06:41:51 calvinserver systemd[4154]: Started snap.ngrok.ngrok-6e862705-ea32-4811-9efa-c4383389f107.scope.
+Jan 21 06:41:51 calvinserver systemd[4154]: snap.ngrok.ngrok-6e862705-ea32-4811-9efa-c4383389f107.scope: Succeeded.
+Jan 21 06:42:19 calvinserver systemd[4154]: Started snap.ngrok.ngrok-3c9dc1c1-0ef7-446e-af82-b03ac69f4223.scope.
+Jan 21 06:42:19 calvinserver systemd[4154]: snap.ngrok.ngrok-3c9dc1c1-0ef7-446e-af82-b03ac69f4223.scope: Succeeded.
+Jan 21 06:42:25 calvinserver systemd[4154]: Started snap.ngrok.ngrok-81864184-e3ba-47eb-b617-6a49364e676b.scope.
+Jan 21 06:42:25 calvinserver systemd[4154]: snap.ngrok.ngrok-81864184-e3ba-47eb-b617-6a49364e676b.scope: Succeeded.
+Jan 21 06:43:24 calvinserver systemd[4154]: Started snap.ngrok.ngrok-39e5bc28-d629-42ed-b22d-bcd8c6ac4470.scope.
