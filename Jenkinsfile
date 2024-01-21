@@ -4,16 +4,6 @@ pipeline {
         skipStagesAfterUnstable()
     }
     stages {
-	stage ('SSH') {
-	   steps {
-	       script {
-                    sshCommand remote: [
-                        host: '54.88.141.208',
-                        user: 'ubuntu',
-                    ], command: 'echo Connected!'
-                }
-	   }
-	}
         stage('Build') {
             agent {
                 docker {
@@ -21,12 +11,6 @@ pipeline {
                 }
             }
             steps {
-		script {
-                    sshCommand remote: [
-                        host: '54.88.141.208',
-                        user: 'ubuntu',
-                    ]
-                }
                 sh 'python -m py_compile sources/add2vals.py sources/calc.py'
                 stash(name: 'compiled-results', includes: 'sources/*.py*')
             }
