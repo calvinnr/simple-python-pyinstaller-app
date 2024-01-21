@@ -1,11 +1,10 @@
 pipeline {
-    agent none
+    agent any
     options {
         skipStagesAfterUnstable()
     }
     stages {
 	stage ('SSH') {
-	   agent any
 	   steps {
 	       sshagent(['ec2']) {
 	           sh 'ssh -tt -o StrictHostKeyChecking=no ubuntu@54.88.141.208'
