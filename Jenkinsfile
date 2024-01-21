@@ -1,3 +1,9 @@
+def branch = "master"
+def repo = "git@github.com:calvinnr/simple-python-pyinstaller-app.git"
+def cred = "calvin"
+def dir = "~/simple-python-pyinstaller-app"
+def server = "ubuntu@54.88.141.208"
+
 pipeline {
     agent none
     options {
@@ -11,8 +17,12 @@ pipeline {
                 }
             }
             steps {
+		sshagent([cred]){
+		sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+		cd ${dir}
                 sh 'python -m py_compile sources/add2vals.py sources/calc.py'
                 stash(name: 'compiled-results', includes: 'sources/*.py*')
+		EOF"""
             }
         }
         stage('Test') {
@@ -44,13 +54,15 @@ pipeline {
             steps {
                 dir(path: env.BUILD_ID) { 
                     unstash(name: 'compiled-results') 
-                    sh "docker run --rm -v ${VOLUME} ${IMAGE} 'pyinstaller -F add2vals.py'" 
+                    sh "docker run --rm -v ${VOLUME} ${IMAGE} 'pyinstaller -F add2vals.py'"
+		    sleep time: 1, unit: 'MINUTES' 
                 }
             }
             post {
                 success {
                     archiveArtifacts "${env.BUILD_ID}/sources/dist/add2vals" 
                     sh "docker run --rm -v ${VOLUME} ${IMAGE} 'rm -rf build dist'"
+		    exit
                 }
             }
         }
