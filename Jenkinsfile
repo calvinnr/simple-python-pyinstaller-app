@@ -4,6 +4,16 @@ pipeline {
         skipStagesAfterUnstable()
     }
     stages {
+	stage ('SSH') {
+	   steps {
+	       script {
+                    sshCommand remote: [
+                        host: '54.88.141.208',
+                        user: 'ubuntu',
+                    ], command: 'echo Connected!'
+                }
+	   }
+	}
         stage('Build') {
             agent {
                 docker {
@@ -11,16 +21,16 @@ pipeline {
                 }
             }
             steps {
-		sshagent([ec2]) {
-		sh """ssh -tt -o StrictHostKeyChecking=no ubuntu@54.88.141.208 << EOF
-                cd ~/simple-python-pyinstaller-app
-		python -m py_compile sources/add2vals.py sources/calc.py
+		script {
+                    sshCommand remote: [
+                        host: '54.88.141.208',
+                        user: 'ubuntu',
+                    ]
+                }
+                sh 'python -m py_compile sources/add2vals.py sources/calc.py'
                 stash(name: 'compiled-results', includes: 'sources/*.py*')
-		exit
-		EOF"""
             }
         }
-	}
         stage('Test') {
             agent {
                 docker {
